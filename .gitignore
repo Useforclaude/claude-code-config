@@ -1,0 +1,44 @@
+# Ignore all subdirectories (projects)
+/*
+
+# But keep these important files/folders
+!.claude/
+!CLAUDE.md
+!.gitignore
+!.gitmodules
+!README.md
+!PUSH_TO_GITHUB.md
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.venv/
+.venv-docs/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# IDE
+.vscode/
+.idea/
+*.sublime-*
+
+# Logs
+*.log
+
+# Temp files
+*.tmp
+*.bak
