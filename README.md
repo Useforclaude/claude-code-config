@@ -1,10 +1,10 @@
 # Claude Code Skills & Global Configuration
 
-This repository contains **69 professional Claude Code skills** and global configuration for enhanced AI-assisted development.
+This repository contains **70 professional Claude Code skills** and global configuration for enhanced AI-assisted development.
 
 ## 🎯 What's Included
 
-### 📚 69 Expert Skills
+### 📚 70 Expert Skills
 - **Psychology & Marketing** (26 skills): Consumer psychology, emotional triggers, cognitive biases, influence tactics
 - **Copywriting & Content** (11 skills): Storytelling, sales copy, email mastery, SEO content
 - **Branding & Strategy** (7 skills): Brand voice, positioning, archetypes
@@ -13,6 +13,7 @@ This repository contains **69 professional Claude Code skills** and global confi
 - **Design & UX** (4 skills): Design systems, UI/UX, animations
 - **Marketing & Strategy** (4 skills): Marketing strategy, funnel optimization, Facebook Ads
 - **Language & Communication** (1 skill): Professional translation (Thai/English/Chinese)
+- **Web Design & Development** (1 skill): Psychology-driven web design
 
 ### 🌐 Global CLAUDE.md
 - Skills auto-loading system (Thai + English keywords)
@@ -111,7 +112,7 @@ All skills support **Thai keywords**:
 .
 ├── CLAUDE.md                    # Global configuration & rules
 ├── .claude/
-│   └── skills/                  # 69 professional skills
+│   └── skills/                  # 70 professional skills
 │       ├── storytelling-mastery-skill/
 │       │   └── SKILL.md         # Skill content + YAML metadata
 │       ├── consumer-psychology-skill/
@@ -492,6 +493,13 @@ Claude will load from:
 
 </details>
 
+<details>
+<summary><b>🎨 Web Design & Development (1 skill)</b></summary>
+
+- web-psychology-design-skill ⭐ NEW!
+
+</details>
+
 ---
 
 ## 🌟 Key Features
@@ -603,7 +611,7 @@ Skills are loaded on-demand:
 
 ## ✅ Status
 
-- **Skills**: 69/69 complete ✅
+- **Skills**: 70/70 complete ✅
 - **Thai Keywords**: Top 20 skills ✅
 - **Documentation**: Complete ✅
 - **Testing**: Production-ready ✅

@@ -75,7 +75,7 @@ git push origin main
 > 1. User request (คำขอของคุณ)
 > 2. Skill description (คำอธิบายใน YAML frontmatter)
 >
-> **Skills location:** `/home/u-and-an/projects/.claude/skills/` (69 skills พร้อมใช้)
+> **Skills location:** `/home/u-and-an/projects/.claude/skills/` (70 skills พร้อมใช้)
 >
 > **ไม่มี Skill tool:** ❌ ไม่มี `Skill(command: "name")` - Claude โหลดเอง **อัตโนมัติ**
 
@@ -203,6 +203,14 @@ git push origin main
 
 ---
 
+#### 🎨 Web Design & Development
+
+23. **`web-psychology-design-skill`** ⭐⭐⭐ (NEW!)
+    - **EN:** `"web design", "website design", "web app", "landing page", "UX psychology", "conversion design", "persuasive design", "high-converting website", "psychology-driven design", "user psychology", "conversion optimization", "CRO", "A/B testing", "visual hierarchy", "color psychology", "typography psychology", "CTA design", "form optimization", "trust signals", "social proof design"`
+    - **TH:** `"ออกแบบเว็บ", "ออกแบบเว็บไซต์", "สร้างเว็บ", "สร้างเว็บแอป", "หน้าแลนดิ้งเพจ", "จิตวิทยาการออกแบบเว็บ", "เว็บที่ขายดี", "เว็บแปลงยอดสูง", "ออกแบบให้ปิดการขาย", "เพิ่มยอดขายเว็บ", "ปุ่มกดซื้อ", "ฟอร์มที่ดี", "สีที่ขายดี", "จิตวิทยาสี", "โครงสร้างหน้าเว็บ", "UX ที่ดี", "A/B testing"`
+
+---
+
 ### 🇹🇭 Thai Keywords Mapping (สรุป)
 
 **สำหรับ Skills ที่ใช้บ่อยสุด:**
@@ -222,10 +230,10 @@ git push origin main
 
 ---
 
-### 📋 Full Skills List (69 Skills)
+### 📋 Full Skills List (70 Skills)
 
 <details>
-<summary><b>คลิกเพื่อดูรายชื่อ skills ทั้งหมด (69 skills)</b></summary>
+<summary><b>คลิกเพื่อดูรายชื่อ skills ทั้งหมด (70 skills)</b></summary>
 
 #### 🧠 Psychology & Marketing (26 skills)
 - `consumer-psychology-skill`
@@ -312,6 +320,9 @@ git push origin main
 #### 🌍 Language & Communication (1 skill)
 - `professional-translation-skill` ⭐ NEW!
 
+#### 🎨 Web Design & Development (1 skill)
+- `web-psychology-design-skill` ⭐ NEW!
+
 </details>
 
 ---
@@ -375,7 +386,7 @@ Claude: [โหลด skill นั้นมาใช้แน่นอน]
 **Option 3: ถามว่ามี skills อะไรบ้าง**
 ```
 User: "มี skills อะไรบ้าง?"
-Claude: [แสดงรายชื่อ 69 skills พร้อมคำอธิบาย]
+Claude: [แสดงรายชื่อ 70 skills พร้อมคำอธิบาย]
 ```
 
 **ข้อดี:**

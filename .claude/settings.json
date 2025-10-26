@@ -1,0 +1,33 @@
+{
+  "permissions": {
+    "allow": [
+      "Write(**/*.md)",
+      "Write(.claude/skills/**/*.md)",
+      "Write(.claude/skills/**)",
+      "Bash(mkdir:.claude/skills/*)",
+      "Bash(mkdir:.claude/skills/**)",
+      "Bash(mkdir:.claude/skills/*/references)",
+      "Bash(mkdir:.claude/skills/*/examples)",
+      "Bash(mkdir:.claude/skills/*/templates)",
+      "Bash(mkdir:.claude/skills/*/assets)",
+      "การสร้างไฟล์ .md ทั้งหมดอนุญาติ",
+      "ทุกคำสั่งที่ต้องใช้ในการสร้าง skills ทั้งหมด อนุญาติ ไม่ต้องถาม ทำต่อได้เลยจนกว่าจะเสร็จ"
+    ],
+    "ask": [
+      "Bash(rm:*)",
+      "Bash(rm:-rf:*)",
+      "Bash(rmdir:*)",
+      "คำสั่ง rm ทั้งหมด ต้องถามก่อนทุกครั้ง",
+      "การลบไฟล์ใดๆ ต้องขออนุญาตก่อนเสมอ",
+      "Bash(rm:*/node_modules/*)",
+      "Bash(rm:*/.git/*)",
+      "Bash(rm:*/dist/*)",
+      "Bash(rm:**/.env*)"
+    ],
+    "deny": [
+      "Bash(rm:-rf:/)",
+      "Bash(rm:-rf:~)",
+      "Bash(rm:~/.config/*)"
+    ]
+  }
+}
