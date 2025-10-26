@@ -1,17 +1,17 @@
 # Claude Code Skills & Global Configuration
 
-This repository contains **67 professional Claude Code skills** and global configuration for enhanced AI-assisted development.
+This repository contains **68 professional Claude Code skills** and global configuration for enhanced AI-assisted development.
 
 ## 🎯 What's Included
 
-### 📚 67 Expert Skills
+### 📚 68 Expert Skills
 - **Psychology & Marketing** (26 skills): Consumer psychology, emotional triggers, cognitive biases, influence tactics
 - **Copywriting & Content** (11 skills): Storytelling, sales copy, email mastery, SEO content
 - **Branding & Strategy** (7 skills): Brand voice, positioning, archetypes
 - **Video & Production** (6 skills): AI video prompting, FFmpeg workflows, TTS synthesis
 - **Technical & Development** (10 skills): Debug methodology, git safety, automation
 - **Design & UX** (4 skills): Design systems, UI/UX, animations
-- **Marketing & Strategy** (3 skills): Marketing strategy, funnel optimization
+- **Marketing & Strategy** (4 skills): Marketing strategy, funnel optimization, Facebook Ads
 
 ### 🌐 Global CLAUDE.md
 - Skills auto-loading system (Thai + English keywords)
@@ -110,7 +110,7 @@ All skills support **Thai keywords**:
 .
 ├── CLAUDE.md                    # Global configuration & rules
 ├── .claude/
-│   └── skills/                  # 67 professional skills
+│   └── skills/                  # 68 professional skills
 │       ├── storytelling-mastery-skill/
 │       │   └── SKILL.md         # Skill content + YAML metadata
 │       ├── consumer-psychology-skill/
@@ -120,6 +120,167 @@ All skills support **Thai keywords**:
 │       └── ... (62 more)
 └── README.md                    # This file
 ```
+
+---
+
+## 🔗 Understanding the Two Repositories
+
+This project uses **two separate GitHub repositories** that work together:
+
+### 📦 Repository 1: `skills-claude` (Knowledge Base)
+**URL:** https://github.com/Useforclaude/skills-claude.git
+
+**What it contains:**
+- 67 SKILL.md files (actual knowledge base content)
+- Each skill is a standalone markdown file with YAML frontmatter
+- Pure content - no configuration
+
+**Structure:**
+```
+skills-claude/
+├── storytelling-mastery-skill/
+│   └── SKILL.md
+├── consumer-psychology-skill/
+│   └── SKILL.md
+├── copywriting-formulas-skill/
+│   └── SKILL.md
+└── ... (64 more skills)
+```
+
+**Purpose:**
+- ✅ Shareable knowledge base
+- ✅ Can be used in multiple projects
+- ✅ Community-maintained (others can contribute skills)
+- ✅ Version-controlled independently
+
+**When to update:**
+- Adding new skills
+- Improving existing skill content
+- Fixing errors in skill knowledge
+
+---
+
+### ⚙️ Repository 2: `claude-code-config` (Configuration)
+**URL:** https://github.com/Useforclaude/claude-code-config.git
+
+**What it contains:**
+- `CLAUDE.md` - Global configuration & rules
+- `README.md` - Documentation (this file)
+- `.gitignore` - Project exclusions
+- `.gitmodules` - Submodule reference to skills-claude
+- `.claude/skills/` - Submodule pointing to skills-claude repo
+
+**Structure:**
+```
+claude-code-config/
+├── CLAUDE.md              # Global config (52KB)
+├── README.md              # Documentation (11KB)
+├── .gitignore
+├── .gitmodules
+└── .claude/
+    └── skills/            # ← Submodule → skills-claude repo
+```
+
+**Purpose:**
+- ✅ Global Claude Code configuration
+- ✅ References skills via git submodule
+- ✅ Personal/team-specific settings
+- ✅ Can be cloned to set up new machines
+
+**When to update:**
+- Changing CLAUDE.md rules
+- Updating documentation
+- Modifying configuration
+
+---
+
+### 🤔 Why Two Repositories?
+
+**1. Separation of Concerns**
+- **Content** (skills) vs **Configuration** (CLAUDE.md)
+- Skills can be shared across teams
+- Configuration can be customized per person/team
+
+**2. Independent Updates**
+- Update skills without touching config
+- Update config without touching skills
+- Different teams can maintain each
+
+**3. Reusability**
+- Use the same skills repo in multiple config setups
+- Share skills with community
+- Fork and customize separately
+
+**4. Clean Version Control**
+- Skills have their own commit history
+- Config has its own commit history
+- No conflicts between content and settings
+
+---
+
+### 📥 How They Work Together
+
+**When you clone:**
+```bash
+git clone --recurse-submodules https://github.com/Useforclaude/claude-code-config.git ~/my-projects
+```
+
+**You get:**
+1. `claude-code-config` repo → Main configuration
+2. `.claude/skills/` → Automatically populated from `skills-claude` repo (submodule)
+
+**Result:** Complete setup with both config and skills!
+
+---
+
+### 🔄 Updating Each Repository
+
+**Update Skills Only:**
+```bash
+cd ~/my-projects/.claude/skills
+git pull origin main
+git add .
+git commit -m "docs: Update skills content"
+git push
+```
+
+**Update Config Only:**
+```bash
+cd ~/my-projects
+# Edit CLAUDE.md or README.md
+git add CLAUDE.md README.md
+git commit -m "docs: Update global configuration"
+git push
+```
+
+**Update Both:**
+```bash
+# 1. Update skills first
+cd ~/my-projects/.claude/skills
+git add .
+git commit -m "feat: Add new skill"
+git push
+
+# 2. Update config to reference new skills version
+cd ~/my-projects
+git add .claude/skills  # Update submodule reference
+git commit -m "chore: Update skills submodule"
+git push
+```
+
+---
+
+### 🎯 Which Repo Should I Use?
+
+| Task | Repository |
+|------|------------|
+| Add new skill | `skills-claude` |
+| Edit skill content | `skills-claude` |
+| Change CLAUDE.md rules | `claude-code-config` |
+| Update documentation | `claude-code-config` |
+| Share skills with others | `skills-claude` |
+| Share your config | `claude-code-config` |
+| Clone for new machine | `claude-code-config` (with `--recurse-submodules`) |
 
 ---
 
@@ -314,11 +475,12 @@ Claude will load from:
 </details>
 
 <details>
-<summary><b>📊 Marketing & Strategy (3 skills)</b></summary>
+<summary><b>📊 Marketing & Strategy (4 skills)</b></summary>
 
 - marketing-strategy-skill
 - funnel-optimization-skill
 - paid-ads-skill
+- facebook-ads-mastery-skill ⭐ NEW!
 
 </details>
 
@@ -433,7 +595,7 @@ Skills are loaded on-demand:
 
 ## ✅ Status
 
-- **Skills**: 67/67 complete ✅
+- **Skills**: 68/68 complete ✅
 - **Thai Keywords**: Top 20 skills ✅
 - **Documentation**: Complete ✅
 - **Testing**: Production-ready ✅

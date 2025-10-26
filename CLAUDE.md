@@ -2,6 +2,71 @@
 
 ---
 
+## 🔄 AUTO-UPDATE TO GITHUB (สำคัญ!)
+
+**กฎสำคัญ:** เมื่อมีการแก้ไข update ใดๆ ใน CLAUDE.md หรือ skills ให้ **update ไปที่ GitHub อัตโนมัติทันทีทุกครั้ง**
+
+### เมื่อแก้ไข CLAUDE.md หรือ README.md:
+```bash
+cd /home/u-and-an/projects
+git add CLAUDE.md README.md PUSH_TO_GITHUB.md .gitignore .gitmodules
+git commit -m "docs: Update global configuration
+
+🤖 Generated with Claude Code
+https://claude.com/claude-code"
+git push origin main
+```
+
+### เมื่อเพิ่ม/แก้ไข Skills:
+```bash
+# 1. Update skills repo first
+cd /home/u-and-an/projects/.claude/skills
+git add .
+git commit -m "feat: Add/update skill content
+
+🤖 Generated with Claude Code
+https://claude.com/claude-code"
+git push origin main
+
+# 2. Update config repo to reference new version
+cd /home/u-and-an/projects
+git add .claude/skills
+git commit -m "chore: Update skills submodule to latest
+
+🤖 Generated with Claude Code
+https://claude.com/claude-code"
+git push origin main
+```
+
+### เมื่อทำทั้งสองอย่าง:
+```bash
+# 1. Skills first
+cd /home/u-and-an/projects/.claude/skills
+git add .
+git commit -m "feat: Add new skill
+
+🤖 Generated with Claude Code
+https://claude.com/claude-code"
+git push origin main
+
+# 2. Config second
+cd /home/u-and-an/projects
+git add .
+git commit -m "feat: Update CLAUDE.md and skills
+
+🤖 Generated with Claude Code
+https://claude.com/claude-code"
+git push origin main
+```
+
+**หมายเหตุ:**
+- ✅ ใช้ commit message ที่ชัดเจน (feat:, docs:, chore:)
+- ✅ ระบุว่าแก้อะไร
+- ✅ Push ทันทีหลัง commit
+- ✅ Update skills ก่อน config เสมอ
+
+---
+
 ## 🎯 GLOBAL SKILLS SYSTEM (ใช้ทุกโปรเจค)
 
 > **ความเป็นจริง:** Skills เป็น **Knowledge Base** (SKILL.md files) ที่ Claude โหลดอัตโนมัติ
@@ -10,7 +75,7 @@
 > 1. User request (คำขอของคุณ)
 > 2. Skill description (คำอธิบายใน YAML frontmatter)
 >
-> **Skills location:** `/home/u-and-an/projects/.claude/skills/` (67 skills พร้อมใช้)
+> **Skills location:** `/home/u-and-an/projects/.claude/skills/` (68 skills พร้อมใช้)
 >
 > **ไม่มี Skill tool:** ❌ ไม่มี `Skill(command: "name")` - Claude โหลดเอง **อัตโนมัติ**
 
@@ -122,6 +187,14 @@
 
 ---
 
+#### 📊 Marketing & Advertising
+
+21. **`facebook-ads-mastery-skill`** ⭐⭐⭐ (NEW!)
+    - **EN:** `"Facebook Ads", "FB Ads", "campaign strategy", "interest targeting", "lookalike audience", "retargeting", "pixel", "ROAS", "CPA", "ad creative", "conversion tracking", "A/B testing", "scaling ads", "Meta Ads"`
+    - **TH:** `"โฆษณาเฟซบุ๊ก", "โฆษณาเฟส", "ลงแอด", "ลงโฆษณา FB", "กลุ่มเป้าหมาย", "วิเคราะห์แอด", "ยอดขายจากแอด", "ต้นทุนต่อลูกค้า", "เพิ่มยอดขาย", "สเกลแอด", "ทดสอบโฆษณา", "Pixel", "วัดผลโฆษณา"`
+
+---
+
 ### 🇹🇭 Thai Keywords Mapping (สรุป)
 
 **สำหรับ Skills ที่ใช้บ่อยสุด:**
@@ -141,10 +214,10 @@
 
 ---
 
-### 📋 Full Skills List (67 Skills)
+### 📋 Full Skills List (68 Skills)
 
 <details>
-<summary><b>คลิกเพื่อดูรายชื่อ skills ทั้งหมด (67 skills)</b></summary>
+<summary><b>คลิกเพื่อดูรายชื่อ skills ทั้งหมด (68 skills)</b></summary>
 
 #### 🧠 Psychology & Marketing (26 skills)
 - `consumer-psychology-skill`
@@ -222,10 +295,11 @@
 - `animation-microinteractions-skill`
 - `modern-frontend-skill`
 
-#### 📊 Marketing & Strategy (3 skills)
+#### 📊 Marketing & Strategy (4 skills)
 - `marketing-strategy-skill`
 - `funnel-optimization-skill`
 - `paid-ads-skill`
+- `facebook-ads-mastery-skill` ⭐ NEW!
 
 </details>
 
@@ -290,7 +364,7 @@ Claude: [โหลด skill นั้นมาใช้แน่นอน]
 **Option 3: ถามว่ามี skills อะไรบ้าง**
 ```
 User: "มี skills อะไรบ้าง?"
-Claude: [แสดงรายชื่อ 67 skills พร้อมคำอธิบาย]
+Claude: [แสดงรายชื่อ 68 skills พร้อมคำอธิบาย]
 ```
 
 **ข้อดี:**
