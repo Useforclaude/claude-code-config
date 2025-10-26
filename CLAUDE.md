@@ -75,7 +75,7 @@ git push origin main
 > 1. User request (คำขอของคุณ)
 > 2. Skill description (คำอธิบายใน YAML frontmatter)
 >
-> **Skills location:** `/home/u-and-an/projects/.claude/skills/` (68 skills พร้อมใช้)
+> **Skills location:** `/home/u-and-an/projects/.claude/skills/` (69 skills พร้อมใช้)
 >
 > **ไม่มี Skill tool:** ❌ ไม่มี `Skill(command: "name")` - Claude โหลดเอง **อัตโนมัติ**
 
@@ -195,6 +195,14 @@ git push origin main
 
 ---
 
+#### 🌍 Language & Communication
+
+22. **`professional-translation-skill`** ⭐⭐⭐ (NEW!)
+    - **EN:** `"translate", "translation", "Thai to English", "English to Thai", "Chinese to Thai", "Thai to Chinese", "English to Chinese", "Chinese to English", "translate document", "translate book", "translate article", "translate conversation", "translate script", "subtitle translation", "transcription translation"`
+    - **TH:** `"แปล", "แปลภาษา", "แปลไทยเป็นอังกฤษ", "แปลอังกฤษเป็นไทย", "แปลจีนเป็นไทย", "แปลไทยเป็นจีน", "แปลอังกฤษเป็นจีน", "แปลจีนเป็นอังกฤษ", "แปลเอกสาร", "แปลหนังสือ", "แปลบทความ", "แปลบทสนทนา", "แปลสคริปต์", "แปลซับไตเติ้ล", "ถอดเสียง", "แปลบทประชุม"`
+
+---
+
 ### 🇹🇭 Thai Keywords Mapping (สรุป)
 
 **สำหรับ Skills ที่ใช้บ่อยสุด:**
@@ -214,10 +222,10 @@ git push origin main
 
 ---
 
-### 📋 Full Skills List (68 Skills)
+### 📋 Full Skills List (69 Skills)
 
 <details>
-<summary><b>คลิกเพื่อดูรายชื่อ skills ทั้งหมด (68 skills)</b></summary>
+<summary><b>คลิกเพื่อดูรายชื่อ skills ทั้งหมด (69 skills)</b></summary>
 
 #### 🧠 Psychology & Marketing (26 skills)
 - `consumer-psychology-skill`
@@ -301,6 +309,9 @@ git push origin main
 - `paid-ads-skill`
 - `facebook-ads-mastery-skill` ⭐ NEW!
 
+#### 🌍 Language & Communication (1 skill)
+- `professional-translation-skill` ⭐ NEW!
+
 </details>
 
 ---
@@ -364,7 +375,7 @@ Claude: [โหลด skill นั้นมาใช้แน่นอน]
 **Option 3: ถามว่ามี skills อะไรบ้าง**
 ```
 User: "มี skills อะไรบ้าง?"
-Claude: [แสดงรายชื่อ 68 skills พร้อมคำอธิบาย]
+Claude: [แสดงรายชื่อ 69 skills พร้อมคำอธิบาย]
 ```
 
 **ข้อดี:**

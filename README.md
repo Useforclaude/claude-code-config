@@ -1,10 +1,10 @@
 # Claude Code Skills & Global Configuration
 
-This repository contains **68 professional Claude Code skills** and global configuration for enhanced AI-assisted development.
+This repository contains **69 professional Claude Code skills** and global configuration for enhanced AI-assisted development.
 
 ## 🎯 What's Included
 
-### 📚 68 Expert Skills
+### 📚 69 Expert Skills
 - **Psychology & Marketing** (26 skills): Consumer psychology, emotional triggers, cognitive biases, influence tactics
 - **Copywriting & Content** (11 skills): Storytelling, sales copy, email mastery, SEO content
 - **Branding & Strategy** (7 skills): Brand voice, positioning, archetypes
@@ -12,6 +12,7 @@ This repository contains **68 professional Claude Code skills** and global confi
 - **Technical & Development** (10 skills): Debug methodology, git safety, automation
 - **Design & UX** (4 skills): Design systems, UI/UX, animations
 - **Marketing & Strategy** (4 skills): Marketing strategy, funnel optimization, Facebook Ads
+- **Language & Communication** (1 skill): Professional translation (Thai/English/Chinese)
 
 ### 🌐 Global CLAUDE.md
 - Skills auto-loading system (Thai + English keywords)
@@ -110,7 +111,7 @@ All skills support **Thai keywords**:
 .
 ├── CLAUDE.md                    # Global configuration & rules
 ├── .claude/
-│   └── skills/                  # 68 professional skills
+│   └── skills/                  # 69 professional skills
 │       ├── storytelling-mastery-skill/
 │       │   └── SKILL.md         # Skill content + YAML metadata
 │       ├── consumer-psychology-skill/
@@ -484,6 +485,13 @@ Claude will load from:
 
 </details>
 
+<details>
+<summary><b>🌍 Language & Communication (1 skill)</b></summary>
+
+- professional-translation-skill ⭐ NEW!
+
+</details>
+
 ---
 
 ## 🌟 Key Features
@@ -595,7 +603,7 @@ Skills are loaded on-demand:
 
 ## ✅ Status
 
-- **Skills**: 68/68 complete ✅
+- **Skills**: 69/69 complete ✅
 - **Thai Keywords**: Top 20 skills ✅
 - **Documentation**: Complete ✅
 - **Testing**: Production-ready ✅
