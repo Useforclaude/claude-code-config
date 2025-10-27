@@ -445,6 +445,10 @@ Claude: [แสดงรายชื่อ 70 skills พร้อมคำอธ
 
 ### 📍 Skill Location & Structure
 
+> **📘 Official Documentation:** https://docs.claude.com/en/docs/claude-code/skills
+>
+> **สำคัญ:** เวลาสร้าง skills ใหม่ ให้ทำตาม Official Docs เสมอ!
+
 ```bash
 # Project skills (shared via git):
 /home/u-and-an/projects/.claude/skills/
@@ -484,6 +488,7 @@ description: Master narrative craft for marketing and copywriting. Use for: thre
 - 📝 `description` คือกุญแจ → ต้องชัดเจนว่า skill นี้ใช้เมื่อไหร่
 - 🎯 ระบุ keywords ที่ trigger skill (เช่น "screenplay", "pain point")
 - 📚 Content ใน SKILL.md = ความรู้ที่ Claude จะนำไปใช้
+- 📘 **ทำตาม Official Docs:** https://docs.claude.com/en/docs/claude-code/skills
 
 ---
 
