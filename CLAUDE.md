@@ -75,7 +75,7 @@ git push origin main
 > 1. User request (คำขอของคุณ)
 > 2. Skill description (คำอธิบายใน YAML frontmatter)
 >
-> **Skills location:** `/home/u-and-an/projects/.claude/skills/` (70 skills พร้อมใช้)
+> **Skills location:** `/home/u-and-an/projects/.claude/skills/` (76 skills พร้อมใช้)
 >
 > **ไม่มี Skill tool:** ❌ ไม่มี `Skill(command: "name")` - Claude โหลดเอง **อัตโนมัติ**
 
@@ -211,6 +211,42 @@ git push origin main
 
 ---
 
+#### 🚀 Advanced Marketing & Business Skills (6 NEW!)
+
+24. **`api-wrapper-saas-skill`** ⭐ NEW!
+    - **EN:** `"API Gateway", "API Wrapper", "API Proxy", "API Reselling", "SaaS on API", "wrapping APIs", "OpenAI wrapper", "Anthropic wrapper", "API monetization", "usage-based pricing", "API key management", "rate limiting", "multi-provider routing"`
+    - **TH:** `"API Gateway", "ห้อ API", "ขาย API", "ทำ SaaS จาก API", "ต่อ API", "เปลี่ยน API", "ขายต่อ API", "จัดการ API key", "กำหนดอัตรา", "หลายผู้ให้บริการ"`
+    - **Summary:** Master API Wrapper/Reselling business models - building profitable SaaS on existing APIs (1,245 lines)
+
+25. **`gamification-mastery-skill`** ⭐ NEW!
+    - **EN:** `"gamification", "points badges leaderboards", "progression mechanics", "reward schedules", "habit formation", "player types", "Bartle taxonomy", "achievement design", "engagement loops", "retention optimization", "variable rewards", "dopamine engineering"`
+    - **TH:** `"เกมมิฟิเคชั่น", "คะแนน ตรา ลีดเดอร์บอร์ด", "ระบบความก้าวหน้า", "ตารางรางวัล", "การสร้างนิสัย", "ประเภทผู้เล่น", "การออกแบบความสำเร็จ", "ลูปการมีส่วนร่วม", "การเก็บรักษา", "รางวัลแปรผัน"`
+    - **Summary:** Advanced gamification with Octalysis framework, behavioral psychology (2,195 lines - largest skill!)
+
+26. **`sales-funnel-mastery-skill`** ⭐ NEW!
+    - **EN:** `"sales funnel", "Russell Brunson", "Value Ladder", "Perfect Webinar", "DotCom Secrets", "funnel hacking", "tripwire funnel", "webinar funnel", "high-ticket funnel", "funnel economics", "ascension path", "customer journey"`
+    - **TH:** `"ช่องทางการขาย", "กระบวนการขาย", "ขั้นบันไดมูลค่า", "เว็บบินาร์สมบูรณ์แบบ", "กระบวนการขายออนไลน์", "ทริปไวร์", "เส้นทางลูกค้า", "ขายของแพง"`
+    - **Summary:** Russell Brunson's sales funnel methodologies - Value Ladder, Perfect Webinar (1,497 lines)
+
+27. **`lead-generation-mastery-skill`** ⭐ NEW!
+    - **EN:** `"lead generation", "lead magnet", "landing page", "lead scoring", "BANT", "CHAMP", "MEDDIC", "lead nurturing", "email sequences", "conversion optimization", "lead qualification", "marketing automation"`
+    - **TH:** `"สร้างลีด", "ดึงดูดลูกค้า", "แม่เหล็กลีด", "หน้าแลนดิ้ง", "คะแนนลีด", "บำรุงลีด", "ลำดับอีเมล", "คุณสมบัติลีด", "อัตโนมัติการตลาด"`
+    - **Summary:** Advanced lead generation - 10+ lead magnet types, 30-60% conversion landing pages (1,501 lines)
+
+28. **`product-launch-mastery-skill`** ⭐ NEW!
+    - **EN:** `"product launch", "Jeff Walker", "PLF", "Product Launch Formula", "launch neuroscience", "dopamine engineering", "social proof cascade", "scarcity mechanics", "pre-launch buzz", "launch sequence", "sideways sales letter"`
+    - **TH:** `"เปิดตัวผลิตภัณฑ์", "สูตรเปิดตัว", "ประสาทวิทยาการเปิดตัว", "โดพามีน", "น้ำตกหลักฐานสังคม", "กลไกความขาดแคลน", "ก่อนเปิดตัว", "ลำดับเปิดตัว"`
+    - **Summary:** Jeff Walker's PLF + launch neuroscience, psychology-driven launching (1,418 lines)
+
+29. **`viral-marketing-mastery-skill`** ⭐ NEW!
+    - **EN:** `"viral marketing", "Jonah Berger", "STEPPS", "Social Currency", "Triggers", "Emotion", "Public", "Practical Value", "Stories", "word-of-mouth", "viral coefficient", "shareability", "memetic design", "network effects"`
+    - **TH:** `"การตลาดไวรัล", "ปากต่อปาก", "แชร์ต่อ", "สกุลเงินทางสังคม", "ตัวกระตุ้น", "อารมณ์", "สาธารณะ", "มูลค่าที่ใช้ได้จริง", "เรื่องราว", "สัมประสิทธิ์ไวรัล", "การแชร์", "ผลกระทบเครือข่าย"`
+    - **Summary:** Jonah Berger's STEPPS framework, viral coefficient optimization K > 1.0 (1,929 lines)
+
+**Total:** 9,785 lines of advanced knowledge added!
+
+---
+
 ### 🇹🇭 Thai Keywords Mapping (สรุป)
 
 **สำหรับ Skills ที่ใช้บ่อยสุด:**
@@ -230,10 +266,10 @@ git push origin main
 
 ---
 
-### 📋 Full Skills List (70 Skills)
+### 📋 Full Skills List (76 Skills)
 
 <details>
-<summary><b>คลิกเพื่อดูรายชื่อ skills ทั้งหมด (70 skills)</b></summary>
+<summary><b>คลิกเพื่อดูรายชื่อ skills ทั้งหมด (76 skills)</b></summary>
 
 #### 🧠 Psychology & Marketing (26 skills)
 - `consumer-psychology-skill`
@@ -311,11 +347,17 @@ git push origin main
 - `animation-microinteractions-skill`
 - `modern-frontend-skill`
 
-#### 📊 Marketing & Strategy (4 skills)
+#### 📊 Marketing & Strategy (10 skills)
 - `marketing-strategy-skill`
 - `funnel-optimization-skill`
 - `paid-ads-skill`
 - `facebook-ads-mastery-skill` ⭐ NEW!
+- `api-wrapper-saas-skill` ⭐ NEW!
+- `gamification-mastery-skill` ⭐ NEW!
+- `sales-funnel-mastery-skill` ⭐ NEW!
+- `lead-generation-mastery-skill` ⭐ NEW!
+- `product-launch-mastery-skill` ⭐ NEW!
+- `viral-marketing-mastery-skill` ⭐ NEW!
 
 #### 🌍 Language & Communication (1 skill)
 - `professional-translation-skill` ⭐ NEW!
@@ -413,7 +455,7 @@ Claude: [แสดงรายชื่อ 70 skills พร้อมคำอธ
 # List all skills:
 ls -1 /home/u-and-an/projects/.claude/skills/
 
-# Total: 67 skills ready to use
+# Total: 76 skills ready to use
 ```
 
 **โครงสร้างแต่ละ skill:**
