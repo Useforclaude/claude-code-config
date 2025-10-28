@@ -75,7 +75,7 @@ git push origin main
 > 1. User request (คำขอของคุณ)
 > 2. Skill description (คำอธิบายใน YAML frontmatter)
 >
-> **Skills location:** `/home/u-and-an/projects/.claude/skills/` (107 skills พร้อมใช้)
+> **Skills location:** `/home/u-and-an/projects/.claude/skills/` (126 skills พร้อมใช้)
 >
 > **ไม่มี Skill tool:** ❌ ไม่มี `Skill(command: "name")` - Claude โหลดเอง **อัตโนมัติ**
 
@@ -1890,10 +1890,10 @@ For financial/trading ERP modules:
 
 ---
 
-### 📋 Full Skills List (104 Skills)
+### 📋 Full Skills List (126 Skills)
 
 <details>
-<summary><b>คลิกเพื่อดูรายชื่อ skills ทั้งหมด (104 skills)</b></summary>
+<summary><b>คลิกเพื่อดูรายชื่อ skills ทั้งหมด (126 skills)</b></summary>
 
 #### 🧠 Psychology & Marketing (26 skills)
 - `consumer-psychology-skill`
@@ -2015,6 +2015,12 @@ For financial/trading ERP modules:
 - `erp-systems-mastery-skill` ⭐ NEW!
 - `odoo-development-skill` ⭐ NEW!
 
+#### 💰 Business Models & Revenue (4 skills) ⭐ NEW!
+- `cash-flow-engineering-skill` ⭐ NEW!
+- `network-effects-mastery-skill` ⭐ NEW!
+- `pricing-strategy-skill` ⭐ NEW!
+- `revenue-streams-mastery-skill` ⭐ NEW!
+
 #### 📈 Trading & Technical Analysis (6 skills) ⭐ NEW!
 - `trading-automation-skill` ⭐ NEW!
 - `indicator-development-skill` ⭐ NEW!
@@ -2117,7 +2123,7 @@ Claude: [แสดงรายชื่อ 70 skills พร้อมคำอธ
 # List all skills:
 ls -1 /home/u-and-an/projects/.claude/skills/
 
-# Total: 77 skills ready to use
+# Total: 126 skills ready to use
 ```
 
 **โครงสร้างแต่ละ skill:**
