@@ -75,13 +75,63 @@ git push origin main
 > 1. User request (คำขอของคุณ)
 > 2. Skill description (คำอธิบายใน YAML frontmatter)
 >
-> **Skills location:** `/home/u-and-an/projects/.claude/skills/` (90 skills พร้อมใช้)
+> **Skills location:** `/home/u-and-an/projects/.claude/skills/` (91 skills พร้อมใช้)
 >
 > **ไม่มี Skill tool:** ❌ ไม่มี `Skill(command: "name")` - Claude โหลดเอง **อัตโนมัติ**
 
 ---
 
-### 🔥 Top 20 Skills (ใช้บ่อยที่สุด)
+### 🤖 AUTO-TRIGGER RULES (สำคัญมาก!)
+
+> **กฎหมายเหล็ก:** Claude ต้องสแกน user message หา keywords ทุกครั้ง และโหลด skills อัตโนมัติ!
+
+**ขั้นตอน Auto-Trigger:**
+
+1. **สแกน User Message** 🔍
+   ```
+   User: "เขียนบทวิดีโอที่แสดง pain point ลูกค้า"
+
+   Keywords พบ:
+   - "เขียนบท" → storytelling-mastery-skill ✅
+   - "pain point" → consumer-psychology-skill ✅
+   - "ลูกค้า" → consumer-psychology-skill ✅
+   ```
+
+2. **Match กับ Skill Descriptions** 📋
+   ```
+   storytelling-mastery-skill:
+     description: "Use for: screenplay, character arc..." ← Match!
+
+   consumer-psychology-skill:
+     description: "Use for: pain point, customer behavior..." ← Match!
+   ```
+
+3. **Auto-Load Skills (ไม่ต้องถาม User!)** 🚀
+   ```
+   Loading skills:
+   - storytelling-mastery-skill
+   - consumer-psychology-skill
+
+   → เริ่มใช้ความรู้จาก 2 skills นี้ทันที
+   ```
+
+4. **Apply Knowledge & Create Output** ✨
+   ```
+   Output combines:
+   - Three-act structure (จาก storytelling-mastery-skill)
+   - Authentic pain points (จาก consumer-psychology-skill)
+   ```
+
+**กฎสำคัญ:**
+- ✅ **Always scan for keywords** (ทุก message!)
+- ✅ **Match case-insensitive** ("Pain Point" = "pain point" = "ปัญหาลูกค้า")
+- ✅ **Load multiple skills** (ถ้า match หลาย skills → ใช้ทุก skill)
+- ✅ **Never ask permission** (โหลดเองโดยอัตโนมัติ)
+- ✅ **Thai keywords = English keywords** (เท่าเทียมกัน!)
+
+---
+
+### 🔥 Top 24 Skills (ใช้บ่อยที่สุด)
 
 **เมื่อทำงานใดๆ → ตรวจสอบ keywords ด้านล่าง → ถ้าตรง → เรียก skill ทันที!**
 
@@ -211,6 +261,14 @@ git push origin main
 
 ---
 
+#### 💰 Membership & Subscription Business
+
+24. **`membership-business-models-skill`** ⭐⭐⭐ (NEW!)
+    - **EN:** `"membership", "subscription", "recurring revenue", "MRR", "ARR", "churn rate", "member retention", "subscription pricing", "tiered pricing", "membership site", "subscription business", "member acquisition", "lifetime value", "LTV", "subscription model", "membership tiers", "cancel membership", "pause subscription", "member onboarding", "member engagement", "community membership", "subscription metrics"`
+    - **TH:** `"สมาชิก", "ค่าสมาชิก", "รายเดือน", "รายปี", "สมัครสมาชิก", "ธุรกิจแบบสมาชิก", "รายได้ประจำ", "ลูกค้าซื้อซ้ำ", "ยกเลิกสมาชิก", "รักษาสมาชิก", "แพ็คเกจ", "อัพเกรด", "ดาวน์เกรด", "ทดลองฟรี", "ชุมชนสมาชิก", "มูลค่าตลอดชีพลูกค้า", "ต้นทุนหาลูกค้า", "เว็บสมาชิก", "สมัครรายเดือน", "สมัครรายปี"`
+
+---
+
 #### 🚀 Advanced Marketing & Business Skills (6 NEW!)
 
 24. **`api-wrapper-saas-skill`** ⭐ NEW!
@@ -271,10 +329,10 @@ git push origin main
 
 ---
 
-### 📋 Full Skills List (90 Skills)
+### 📋 Full Skills List (91 Skills)
 
 <details>
-<summary><b>คลิกเพื่อดูรายชื่อ skills ทั้งหมด (90 skills)</b></summary>
+<summary><b>คลิกเพื่อดูรายชื่อ skills ทั้งหมด (91 skills)</b></summary>
 
 #### 🧠 Psychology & Marketing (26 skills)
 - `consumer-psychology-skill`
@@ -357,7 +415,7 @@ git push origin main
 - `accessibility-design-skill` ⭐ NEW!
 - `ux-research-skill` ⭐ NEW!
 
-#### 📊 Marketing & Strategy (11 skills)
+#### 📊 Marketing & Strategy (12 skills)
 - `marketing-strategy-skill`
 - `funnel-optimization-skill`
 - `paid-ads-skill`
@@ -369,6 +427,7 @@ git push origin main
 - `product-launch-mastery-skill` ⭐ NEW!
 - `viral-marketing-mastery-skill` ⭐ NEW!
 - `china-marketing-mastery-skill` ⭐ NEW!
+- `membership-business-models-skill` ⭐ NEW!
 
 #### 🌍 Language & Communication (1 skill)
 - `professional-translation-skill` ⭐ NEW!
