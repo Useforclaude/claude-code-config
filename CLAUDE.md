@@ -75,7 +75,7 @@ git push origin main
 > 1. User request (คำขอของคุณ)
 > 2. Skill description (คำอธิบายใน YAML frontmatter)
 >
-> **Skills location:** `/home/u-and-an/projects/.claude/skills/` (104 skills พร้อมใช้)
+> **Skills location:** `/home/u-and-an/projects/.claude/skills/` (107 skills พร้อมใช้)
 >
 > **ไม่มี Skill tool:** ❌ ไม่มี `Skill(command: "name")` - Claude โหลดเอง **อัตโนมัติ**
 
@@ -742,13 +742,13 @@ Result: 15-20% close on $5,000+ offers
 
 > **Purpose:** Systematic coding assistance from analysis to deployment
 >
-> **Power Level:** 25 skills combined = 800/1000 development expertise
+> **Power Level:** 28 skills combined = 800/1000 development expertise
 >
 > **Target:** Production-grade code that ships fast and runs reliably
 
 ### What Is The Coding Ultimate Stack?
 
-The Coding Ultimate Stack is a **5-layer systematic development framework** that combines 25 skills to deliver production-grade code. It works by:
+The Coding Ultimate Stack is a **5-layer systematic development framework** that combines 28 skills to deliver production-grade code. It works by:
 
 1. **Analyzing problems deeply** (root cause, not symptoms)
 2. **Designing scalable solutions** (architecture-first approach)
@@ -760,7 +760,7 @@ The Coding Ultimate Stack is a **5-layer systematic development framework** that
 
 ---
 
-### 🧠 The 5 Layers (25 Skills)
+### 🧠 The 5 Layers (28 Skills)
 
 #### **Layer 1: Analysis & Problem-Solving (4 skills)** 🔍
 *Understand what's wrong before fixing*
@@ -776,7 +776,7 @@ The Coding Ultimate Stack is a **5-layer systematic development framework** that
 
 ---
 
-#### **Layer 2: Architecture & Design (5 skills)** 🏗️
+#### **Layer 2: Architecture & Design (6 skills)** 🏗️
 *Design the right solution*
 
 5. `app-architecture-skill` ⭐⭐ - System design, microservices, scalability planning
@@ -784,24 +784,25 @@ The Coding Ultimate Stack is a **5-layer systematic development framework** that
 7. `design-systems-skill` ⭐ - Component architecture, design tokens, UI components
 8. `api-wrapper-saas-skill` ⭐ - API design, Gateway patterns, usage-based pricing
 9. `modern-frontend-skill` ⭐ - Frontend architecture, state management
+10. `database-design-skill` ⭐⭐⭐ **NEW!** - SQL/NoSQL design, normalization, query optimization
 
 **Combined Power:** 750/1000 - Solid foundation design
 
-**Thai Keywords:** "สถาปัตยกรรม", "ออกแบบระบบ", "โครงสร้าง", "จัดการโค้ด", "ระบบใหญ่", "ขยายระบบ", "โครงสร้างโค้ด", "แบ่งโมดูล", "API", "architecture", "design"
+**Thai Keywords:** "สถาปัตยกรรม", "ออกแบบระบบ", "โครงสร้าง", "จัดการโค้ด", "ระบบใหญ่", "ขยายระบบ", "โครงสร้างโค้ด", "แบ่งโมดูล", "API", "ฐานข้อมูล", "database", "SQL", "architecture", "design"
 
 ---
 
 #### **Layer 3: Implementation (8 skills)** 💻
 *Write production-ready code*
 
-10. `python-best-practices-skill` ⭐⭐ - Pythonic code, PEP 8, type hints
-11. `javascript-modern-skill` ⭐⭐ - ES6+, async/await, modern JS patterns
-12. `code-quality-standards-skill` ⭐⭐ - Clean code principles, refactoring
-13. `automation-workflows-skill` ⭐⭐ - Workflow automation, batch processing
-14. `document-conversion-skill` ⭐⭐ - MD → PDF, HTML → PDF, Pandoc
-15. `odoo-development-skill` ⭐ - ERP development, Odoo customization
-16. `excel-expert-skill` ⭐ - Data manipulation, advanced Excel
-17. `ffmpeg-video-processing-skill` ⭐⭐⭐ - Video processing pipelines
+11. `python-best-practices-skill` ⭐⭐ - Pythonic code, PEP 8, type hints
+12. `javascript-modern-skill` ⭐⭐ - ES6+, async/await, modern JS patterns
+13. `code-quality-standards-skill` ⭐⭐ - Clean code principles, refactoring
+14. `automation-workflows-skill` ⭐⭐ - Workflow automation, batch processing
+15. `document-conversion-skill` ⭐⭐ - MD → PDF, HTML → PDF, Pandoc
+16. `odoo-development-skill` ⭐ - ERP development, Odoo customization
+17. `excel-expert-skill` ⭐ - Data manipulation, advanced Excel
+18. `ffmpeg-video-processing-skill` ⭐⭐⭐ - Video processing pipelines
 
 **Combined Power:** 850/1000 - Expert implementation
 
@@ -809,31 +810,33 @@ The Coding Ultimate Stack is a **5-layer systematic development framework** that
 
 ---
 
-#### **Layer 4: Quality & Testing (4 skills)** ✅
+#### **Layer 4: Quality & Testing (5 skills)** ✅
 *Ensure correctness and maintainability*
 
-18. `code-quality-standards-skill` ⭐⭐⭐ - Refactoring, code review, clean code
-19. `debug-methodology-skill` ⭐⭐⭐ - Validate fixes work correctly
-20. `security-best-practices-skill` ⭐⭐⭐ - Security audit, OWASP compliance
-21. `git-safety-skill` ⭐⭐ - Safe version control, branching strategies
+19. `testing-mastery-skill` ⭐⭐⭐ **NEW!** - Unit/integration/E2E testing, TDD/BDD, pytest/Jest/Cypress
+20. `code-quality-standards-skill` ⭐⭐⭐ - Refactoring, code review, clean code
+21. `debug-methodology-skill` ⭐⭐⭐ - Validate fixes work correctly
+22. `security-best-practices-skill` ⭐⭐⭐ - Security audit, OWASP compliance
+23. `git-safety-skill` ⭐⭐ - Safe version control, branching strategies
 
 **Combined Power:** 820/1000 - Production-grade quality
 
-**Thai Keywords:** "ทดสอบ", "ตรวจสอบ", "รีวิว", "ปรับปรุง", "รีแฟคเตอร์", "โค้ดสะอาด", "เพิ่มประสิทธิภาพ", "ตรวจสอบความปลอดภัย", "ตรวจโค้ด", "test", "refactor", "code review"
+**Thai Keywords:** "ทดสอบ", "ตรวจสอบ", "รีวิว", "ปรับปรุง", "รีแฟคเตอร์", "โค้ดสะอาด", "เพิ่มประสิทธิภาพ", "ตรวจสอบความปลอดภัย", "ตรวจโค้ด", "unit test", "TDD", "BDD", "test", "refactor", "code review"
 
 ---
 
-#### **Layer 5: Deployment & Collaboration (4 skills)** 🚀
+#### **Layer 5: Deployment & Collaboration (5 skills)** 🚀
 *Ship to production safely*
 
-22. `git-safety-skill` ⭐⭐⭐ - Commit, branch, merge, pull request strategies
-23. `automation-workflows-skill` ⭐⭐ - CI/CD pipelines, deployment automation
-24. `security-best-practices-skill` ⭐⭐ - Production security hardening
-25. `document-conversion-skill` ⭐ - Documentation generation
+24. `docker-containerization-skill` ⭐⭐⭐ **NEW!** - Docker, Kubernetes, container orchestration, CI/CD
+25. `git-safety-skill` ⭐⭐⭐ - Commit, branch, merge, pull request strategies
+26. `automation-workflows-skill` ⭐⭐ - CI/CD pipelines, deployment automation
+27. `security-best-practices-skill` ⭐⭐ - Production security hardening
+28. `document-conversion-skill` ⭐ - Documentation generation
 
 **Combined Power:** 750/1000 - Safe deployment
 
-**Thai Keywords:** "คอมมิท", "พุช", "เผยแพร่", "ปล่อย", "รวมโค้ด", "แบรนช์", "Pull Request", "สำรองข้อมูล", "Git", "ควบคุมเวอร์ชัน", "commit", "deploy", "release"
+**Thai Keywords:** "คอมมิท", "พุช", "เผยแพร่", "ปล่อย", "รวมโค้ด", "แบรนช์", "Pull Request", "สำรองข้อมูล", "Git", "ควบคุมเวอร์ชัน", "Docker", "container", "Kubernetes", "ปรับใช้", "commit", "deploy", "release"
 
 ---
 
@@ -880,7 +883,7 @@ Output: Production-ready code with:
 
 ---
 
-#### **Mode 2: Aggressive Stack (18 skills)** 🔥
+#### **Mode 2: Aggressive Stack (20 skills)** 🔥
 *Trigger: High-complexity coding keywords*
 
 **Keywords:**
@@ -919,7 +922,7 @@ Output: Complete architecture with:
 
 ---
 
-#### **Mode 3: Ultimate Stack (25 skills)** 💣
+#### **Mode 3: Ultimate Stack (28 skills)** 💣
 *Trigger: Explicit maximum assistance request*
 
 **Keywords:**
@@ -927,9 +930,10 @@ Output: Complete architecture with:
 - **TH:** "ใช้ทุกอาวุธ", "ช่วยเต็มที่", "ระดับผู้เชี่ยวชาญ", "ระดับ expert", "พัฒนาแบบสุดยอด", "ultimate stack", "production-ready"
 
 **Auto-Load:**
-- All 18 from Aggressive Stack
-- **+7 additional:**
+- All 20 from Aggressive Stack
+- **+8 additional:**
   - All remaining implementation skills (document-conversion, odoo, excel, ffmpeg)
+  - 3 NEW critical skills (testing-mastery, database-design, docker-containerization)
   - Complete Layer 4-5 coverage
 
 **Power:** 800/1000 - **MAXIMUM CODING ASSISTANCE**
@@ -938,24 +942,24 @@ Output: Complete architecture with:
 ```
 User: "สร้างเว็บแอปสุดยอด production-ready ใช้ ultimate stack"
 
-Auto-loads ALL 25 skills:
+Auto-loads ALL 28 skills:
 ✅ Layer 1: Analysis (4 skills)
-✅ Layer 2: Architecture (5 skills)
+✅ Layer 2: Architecture (6 skills) - Including database design
 ✅ Layer 3: Implementation (8 skills)
-✅ Layer 4: Quality (4 skills)
-✅ Layer 5: Deployment (4 skills)
+✅ Layer 4: Quality & Testing (5 skills) - Including comprehensive testing
+✅ Layer 5: Deployment (5 skills) - Including Docker/K8s
 
 Output: Complete full-stack application:
 - Clean architecture (Domain-Driven Design)
 - Backend API (Python FastAPI/Django)
 - Frontend (React/Vue with TypeScript)
-- Database schema (PostgreSQL + Redis)
-- Tests (pytest + Jest)
-- Security audit passed
-- Docker + docker-compose
-- CI/CD pipeline (GitHub Actions)
-- Documentation (auto-generated)
-- Git workflow configured
+- Database schema optimized (PostgreSQL + Redis + proper indexes)
+- Comprehensive tests (unit/integration/E2E with pytest/Jest/Cypress)
+- Security audit passed (OWASP compliant)
+- Docker + docker-compose + Kubernetes manifests
+- CI/CD pipeline (GitHub Actions with automated testing)
+- Documentation (auto-generated API docs)
+- Git workflow configured (branching strategy, PR templates)
 
 Result: Production-ready system that ships immediately!
 ```
