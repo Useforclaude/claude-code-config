@@ -75,7 +75,7 @@ git push origin main
 > 1. User request (คำขอของคุณ)
 > 2. Skill description (คำอธิบายใน YAML frontmatter)
 >
-> **Skills location:** `/home/u-and-an/projects/.claude/skills/` (76 skills พร้อมใช้)
+> **Skills location:** `/home/u-and-an/projects/.claude/skills/` (77 skills พร้อมใช้)
 >
 > **ไม่มี Skill tool:** ❌ ไม่มี `Skill(command: "name")` - Claude โหลดเอง **อัตโนมัติ**
 
@@ -243,7 +243,12 @@ git push origin main
     - **TH:** `"การตลาดไวรัล", "ปากต่อปาก", "แชร์ต่อ", "สกุลเงินทางสังคม", "ตัวกระตุ้น", "อารมณ์", "สาธารณะ", "มูลค่าที่ใช้ได้จริง", "เรื่องราว", "สัมประสิทธิ์ไวรัล", "การแชร์", "ผลกระทบเครือข่าย"`
     - **Summary:** Jonah Berger's STEPPS framework, viral coefficient optimization K > 1.0 (1,929 lines)
 
-**Total:** 9,785 lines of advanced knowledge added!
+30. **`china-marketing-mastery-skill`** ⭐ NEW!
+    - **EN:** `"China marketing", "Chinese e-commerce", "Taobao", "Tmall", "JD.com", "Pinduoduo", "WeChat", "Douyin", "Xiaohongshu", "RED", "Little Red Book", "live commerce China", "KOL China", "KOC China", "Guanxi", "Mianzi", "face culture", "fission marketing China", "red packet marketing", "group buying", "Daigou", "cross-border China", "Double 11", "Singles Day", "618 festival", "Chinese consumer psychology"`
+    - **TH:** `"การตลาดจีน", "อีคอมเมิร์ซจีน", "ทาโอเบา", "ทีมอลล์", "เจดีดอทคอม", "ผิงตัวตัว", "วีแชท", "โดวยิน", "เสี่ยวหงซู", "ไลฟ์คอมเมิร์ซจีน", "เคโอแอลจีน", "กวนซี", "เหมียนจื้อ", "วัฒนธรรมหน้าตา", "การตลาดแบบแบ่งแยกจีน", "ซองแดง", "ซื้อกลุ่ม", "ไดโก", "ข้ามพรมแดนจีน", "วันคนโสด", "เทศกาล 618", "จิตวิทยาผู้บริโภคจีน"`
+    - **Summary:** Complete China marketing ecosystem - platforms, psychology, live commerce, fission tactics (3,000 lines)
+
+**Total:** 12,785 lines of advanced knowledge added!
 
 ---
 
@@ -266,10 +271,10 @@ git push origin main
 
 ---
 
-### 📋 Full Skills List (76 Skills)
+### 📋 Full Skills List (77 Skills)
 
 <details>
-<summary><b>คลิกเพื่อดูรายชื่อ skills ทั้งหมด (76 skills)</b></summary>
+<summary><b>คลิกเพื่อดูรายชื่อ skills ทั้งหมด (77 skills)</b></summary>
 
 #### 🧠 Psychology & Marketing (26 skills)
 - `consumer-psychology-skill`
@@ -347,7 +352,7 @@ git push origin main
 - `animation-microinteractions-skill`
 - `modern-frontend-skill`
 
-#### 📊 Marketing & Strategy (10 skills)
+#### 📊 Marketing & Strategy (11 skills)
 - `marketing-strategy-skill`
 - `funnel-optimization-skill`
 - `paid-ads-skill`
@@ -358,6 +363,7 @@ git push origin main
 - `lead-generation-mastery-skill` ⭐ NEW!
 - `product-launch-mastery-skill` ⭐ NEW!
 - `viral-marketing-mastery-skill` ⭐ NEW!
+- `china-marketing-mastery-skill` ⭐ NEW!
 
 #### 🌍 Language & Communication (1 skill)
 - `professional-translation-skill` ⭐ NEW!
@@ -459,7 +465,7 @@ Claude: [แสดงรายชื่อ 70 skills พร้อมคำอธ
 # List all skills:
 ls -1 /home/u-and-an/projects/.claude/skills/
 
-# Total: 76 skills ready to use
+# Total: 77 skills ready to use
 ```
 
 **โครงสร้างแต่ละ skill:**
