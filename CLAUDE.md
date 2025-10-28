@@ -431,8 +431,8 @@ The Ultimate Stack is a **6-layer neuro-psychological persuasion system** that c
 *Trigger: Basic persuasion keywords*
 
 **Keywords:**
-- **EN:** "persuasion", "influence", "selling", "marketing", "conversion"
-- **TH:** "โน้มน้าว", "ชักจูง", "ขาย", "การตลาด", "ปิดการขาย"
+- **EN:** "persuasion", "influence", "selling", "marketing", "conversion", "sales page", "copywriting", "sales copy", "landing page", "sales funnel", "persuade", "convince", "sell more"
+- **TH:** "โน้มน้าว", "ชักจูง", "ขาย", "การตลาด", "ปิดการขาย", "เขียนขาย", "หน้าขาย", "คอปี้ขาย", "ขายของ", "ขายสินค้า", "ทำให้ซื้อ", "โน้มน้าวใจ", "ชักชวน", "ขายดี"
 
 **Auto-Load:**
 - Layer 1: hormone-hijacking-skill, dopamine-engineering-skill
@@ -450,8 +450,8 @@ The Ultimate Stack is a **6-layer neuro-psychological persuasion system** that c
 *Trigger: High-intent buying keywords*
 
 **Keywords:**
-- **EN:** "irrational buying", "bypass objections", "emotional overwhelm", "high pressure", "aggressive selling", "neuromarketing"
-- **TH:** "ขายปัง", "ขายระเบิด", "อดใจไม่ได้", "ซื้อไม่ทัน", "ของหมด", "ควบคุมสมอง", "ฮอร์โมน", "โดปามีน", "กระตุ้นสมอง"
+- **EN:** "irrational buying", "bypass objections", "emotional overwhelm", "high pressure", "aggressive selling", "neuromarketing", "brain control", "trigger emotions", "emotional triggers", "buying frenzy", "impulse buying", "irresistible offer", "can't resist", "must buy", "fomo", "scarcity", "urgency"
+- **TH:** "ขายปัง", "ขายระเบิด", "อดใจไม่ได้", "ซื้อไม่ทัน", "ของหมด", "ควบคุมสมอง", "ฮอร์โมน", "โดปามีน", "กระตุ้นสมอง", "กระตุ้นอารมณ์", "ซื้อแบบไม่คิด", "ต้องซื้อ", "ตัวสั่น", "กลัวพลาด", "เหลือน้อย", "รีบซื้อ", "ด่วน", "จำกัด", "ขายดี", "คนเยอะ"
 
 **Auto-Load:**
 - All 15 from Default Stack
@@ -469,8 +469,8 @@ The Ultimate Stack is a **6-layer neuro-psychological persuasion system** that c
 *Trigger: Explicit request for Ultimate Stack*
 
 **Keywords:**
-- **EN:** "ultimate stack", "maximum persuasion", "all weapons", "full arsenal", "irrational frenzy", "bypass rational brain"
-- **TH:** "ใช้ทุกอาวุธ", "ขายสุดๆ", "โน้มน้าวสูงสุด", "ควบคุมสมองเต็มที่", "ขายแบบสุดโหด", "ultimate stack"
+- **EN:** "ultimate stack", "maximum persuasion", "all weapons", "full arsenal", "irrational frenzy", "bypass rational brain", "mind control", "total control", "complete persuasion", "full power", "all skills", "maximum power", "highest conversion", "highest level", "expert level persuasion", "use everything", "full force", "nuclear option"
+- **TH:** "ใช้ทุกอาวุธ", "ขายสุดๆ", "โน้มน้าวสูงสุด", "ควบคุมสมองเต็มที่", "ขายแบบสุดโหด", "ultimate stack", "เต็มพิกัด", "เต็มที่", "ทำสุดๆ", "ใช้ทุกทาง", "ระดับสูงสุด", "ขายระดับเทพ", "ปิดยอดสูงสุด", "ขายแบบเทพ", "ใช้ทุกเทคนิค", "ขายแบบโหด", "ultimate", "ควบคุมเต็มที่", "ชักจูงสุดขีด"
 
 **Auto-Load:**
 - All 23 from Aggressive Stack
@@ -848,8 +848,8 @@ The Coding Ultimate Stack is a **5-layer systematic development framework** that
 *Trigger: Basic coding keywords*
 
 **Keywords:**
-- **EN:** "code", "programming", "develop", "write code", "implement", "build", "create function"
-- **TH:** "เขียนโค้ด", "พัฒนา", "โปรแกรม", "เขียนโปรแกรม", "สร้าง", "ทำโปรแกรม", "เขียนฟังก์ชัน"
+- **EN:** "code", "programming", "develop", "write code", "implement", "build", "create function", "software", "application", "script", "function", "class", "module", "API", "fix bug", "debug", "error"
+- **TH:** "เขียนโค้ด", "พัฒนา", "โปรแกรม", "เขียนโปรแกรม", "สร้าง", "ทำโปรแกรม", "เขียนฟังก์ชัน", "ซอฟต์แวร์", "แอป", "แอปพลิเคชัน", "สคริปต์", "ฟังก์ชัน", "คลาส", "โมดูล", "แก้บั๊ก", "แก้ไขข้อผิดพลาด", "เออเรอร์", "ปัญหา"
 
 **Auto-Load:**
 - Layer 1: debug-methodology-skill
@@ -887,8 +887,8 @@ Output: Production-ready code with:
 *Trigger: High-complexity coding keywords*
 
 **Keywords:**
-- **EN:** "architecture", "system design", "scalability", "refactor", "optimize", "production", "enterprise", "microservices", "design pattern"
-- **TH:** "สถาปัตยกรรม", "ออกแบบระบบ", "ขยายระบบ", "รีแฟคเตอร์", "ปรับปรุง", "ระบบใหญ่", "เพิ่มประสิทธิภาพ", "โปรดักชั่น"
+- **EN:** "architecture", "system design", "scalability", "refactor", "optimize", "production", "enterprise", "microservices", "design pattern", "scalable", "performance", "high traffic", "distributed system", "database design", "large scale", "complex system", "infrastructure"
+- **TH:** "สถาปัตยกรรม", "ออกแบบระบบ", "ขยายระบบ", "รีแฟคเตอร์", "ปรับปรุง", "ระบบใหญ่", "เพิ่มประสิทธิภาพ", "โปรดักชั่น", "ระบบซับซ้อน", "ประสิทธิภาพสูง", "รองรับคนเยอะ", "ระบบกระจาย", "ออกแบบฐานข้อมูล", "ระบบขนาดใหญ่", "โครงสร้างพื้นฐาน"
 
 **Auto-Load:**
 - All 12 from Default Stack
@@ -926,8 +926,8 @@ Output: Complete architecture with:
 *Trigger: Explicit maximum assistance request*
 
 **Keywords:**
-- **EN:** "ultimate stack", "maximum help", "full coding assistance", "all skills", "comprehensive solution", "expert level", "production-grade"
-- **TH:** "ใช้ทุกอาวุธ", "ช่วยเต็มที่", "ระดับผู้เชี่ยวชาญ", "ระดับ expert", "พัฒนาแบบสุดยอด", "ultimate stack", "production-ready"
+- **EN:** "ultimate stack", "maximum help", "full coding assistance", "all skills", "comprehensive solution", "expert level", "production-grade", "production-ready", "enterprise-grade", "complete solution", "full stack", "end-to-end", "professional grade", "industrial strength", "world-class", "top tier", "maximum quality", "best practices"
+- **TH:** "ใช้ทุกอาวุธ", "ช่วยเต็มที่", "ระดับผู้เชี่ยวชาญ", "ระดับ expert", "พัฒนาแบบสุดยอด", "ultimate stack", "production-ready", "เต็มรูปแบบ", "ระดับมืออาชีพ", "ระดับองค์กร", "คุณภาพสูงสุด", "ทำให้ดีที่สุด", "แบบเต็มที่", "สมบูรณ์แบบ", "ระดับเทพ"
 
 **Auto-Load:**
 - All 20 from Aggressive Stack
