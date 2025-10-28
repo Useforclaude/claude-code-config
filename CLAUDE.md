@@ -1377,6 +1377,496 @@ Code quality: 99/100 (production-ready)
 
 ---
 
+## 📈 THE TRADING ULTIMATE STACK: Professional Trading Systems
+
+> **Purpose:** Systematic trading bot/EA/indicator development from strategy to deployment
+>
+> **Power Level:** 12 skills combined = 850/1000 trading system expertise
+>
+> **Target:** Production-ready trading systems with proven strategies
+
+### What Is The Trading Ultimate Stack?
+
+The Trading Ultimate Stack is a **4-layer systematic trading development framework** that combines 12 skills to deliver professional trading systems (EA, Robot, Indicator, Automation). It works by:
+
+1. **Strategy Development** (technical analysis, price action, indicators)
+2. **System Implementation** (EA/Robot coding, backtesting, optimization)
+3. **Risk Management** (position sizing, drawdown control, portfolio management)
+4. **Production Deployment** (live trading, monitoring, automation)
+
+**Result:** Profitable trading systems that run reliably 24/7.
+
+---
+
+### 📊 The 4 Layers (12 Skills)
+
+#### **Layer 1: Strategy & Analysis (3 skills)** 📊
+*Develop winning trading strategies*
+
+1. `technical-analysis-mastery-skill` ⭐⭐⭐ - Chart patterns, support/resistance, trend analysis
+2. `price-action-trading-skill` ⭐⭐⭐ - Candlestick patterns, market structure, order flow
+3. `indicator-development-skill` ⭐⭐⭐ - Custom indicators (MT4/MT5, TradingView Pine Script)
+
+**Combined Power:** 900/1000 - Expert strategy development
+
+**Thai Keywords:** "กลยุทธ์เทรด", "ระบบเทรด", "วิเคราะห์กราฟ", "price action", "แท่งเทียน", "indicator", "ตัวชี้วัด", "technical analysis"
+
+---
+
+#### **Layer 2: Automation & Implementation (4 skills)** 🤖
+*Build EA, Robot, and trading systems*
+
+4. `trading-automation-skill` ⭐⭐⭐ - EA development (MQL4/MQL5), trading bot architecture
+5. `algorithmic-trading-skill` ⭐⭐⭐ - Strategy backtesting, parameter optimization, walk-forward analysis
+6. `python-best-practices-skill` ⭐⭐ - Python for trading (pandas, numpy, TA-Lib)
+7. `automation-workflows-skill` ⭐⭐ - Automated execution, scheduling, alerts
+
+**Combined Power:** 850/1000 - Professional EA/Robot development
+
+**Thai Keywords:** "EA", "Robot", "เทรดอัตโนมัติ", "สร้าง EA", "เขียน EA", "backtest", "ออปติไมซ์", "MQL4", "MQL5", "Python trading"
+
+---
+
+#### **Layer 3: Risk Management & Quality (3 skills)** 🛡️
+*Protect capital and ensure system reliability*
+
+8. `risk-management-trading-skill` ⭐⭐⭐ - Position sizing, stop loss, risk/reward, drawdown control
+9. `debug-methodology-skill` ⭐⭐⭐ - Systematic debugging for trading systems
+10. `code-quality-standards-skill` ⭐⭐ - Clean code for maintainable EAs
+
+**Combined Power:** 820/1000 - Capital preservation
+
+**Thai Keywords:** "บริหารความเสี่ยง", "ควบคุมความเสี่ยง", "ตั้ง SL", "money management", "position sizing", "drawdown", "แก้บั๊ก EA"
+
+---
+
+#### **Layer 4: Deployment & Production (2 skills)** 🚀
+*Deploy systems to live trading*
+
+11. `git-safety-skill` ⭐⭐ - Version control for trading strategies
+12. `automation-workflows-skill` ⭐⭐ - Live trading deployment, monitoring, alerts
+
+**Combined Power:** 750/1000 - Production trading
+
+**Thai Keywords:** "ลง VPS", "เทรดจริง", "live trading", "deploy EA", "ติดตาม EA", "แจ้งเตือน"
+
+---
+
+### 🤖 Auto-Loading Rules (3 Modes)
+
+#### **Mode 1: Strategy Stack (6 skills)** ⚡
+*Trigger: Strategy development keywords*
+
+**Keywords:**
+- **EN:** "trading strategy", "technical analysis", "price action", "indicator", "chart pattern"
+- **TH:** "กลยุทธ์เทรด", "ระบบเทรด", "วิเคราะห์กราฟ", "price action", "indicator", "ตัวชี้วัด"
+
+**Auto-Load:**
+- Layer 1: All 3 strategy skills
+- Layer 2: python-best-practices (for analysis)
+- Layer 3: risk-management-trading
+
+**Power:** ~700/1000 - Strategy development
+
+---
+
+#### **Mode 2: EA/Robot Stack (9 skills)** 🔥
+*Trigger: EA/Robot development keywords*
+
+**Keywords:**
+- **EN:** "EA", "trading bot", "automate trading", "MQL4", "MQL5", "backtest", "optimize"
+- **TH:** "EA", "Robot", "เทรดอัตโนมัติ", "สร้าง EA", "เขียน EA", "backtest", "ออปติไมซ์"
+
+**Auto-Load:**
+- All 6 from Strategy Stack
+- **+3 additional:**
+  - trading-automation-skill
+  - algorithmic-trading-skill
+  - debug-methodology (for EA debugging)
+
+**Power:** ~800/1000 - Professional EA development
+
+---
+
+#### **Mode 3: Full Trading Stack (12 skills)** 💣
+*Trigger: Complete trading system request*
+
+**Keywords:**
+- **EN:** "complete trading system", "production EA", "live trading", "trading ultimate stack"
+- **TH:** "ระบบเทรดสมบูรณ์", "EA ลงจริง", "เทรดจริง", "ระบบเทรดเต็มรูปแบบ"
+
+**Auto-Load:** ALL 12 skills
+
+**Power:** 850/1000 - **MAXIMUM TRADING EXPERTISE**
+
+---
+
+### 🎯 Skill Combination Patterns
+
+#### **Pattern 1: Custom Indicator Development** 📊
+*Goal: Build custom TradingView/MT4 indicator*
+
+**Stack:**
+1. `technical-analysis-mastery-skill` - Understand indicator logic
+2. `indicator-development-skill` - Code in Pine Script/MQL4
+3. `python-best-practices-skill` - Test with Python first
+4. `debug-methodology-skill` - Debug indicator logic
+5. `git-safety-skill` - Version control
+
+**Example:**
+```
+User: "สร้าง indicator RSI + Bollinger Bands รวมกัน"
+
+Auto-loads 5 skills → Output:
+- Pine Script code (TradingView)
+- MQL4 code (MT4)
+- Backtesting Python script
+- Documentation
+```
+
+---
+
+#### **Pattern 2: EA/Robot Development** 🤖
+*Goal: Build production-ready EA*
+
+**Stack:**
+1. `price-action-trading-skill` - Define entry/exit rules
+2. `trading-automation-skill` - Code EA (MQL4/MQL5)
+3. `algorithmic-trading-skill` - Backtest + optimize
+4. `risk-management-trading-skill` - Implement risk controls
+5. `debug-methodology-skill` - Debug EA logic
+6. `git-safety-skill` - Version control
+
+**Example:**
+```
+User: "สร้าง EA เทรด breakout แบบมี risk management"
+
+Auto-loads 9 skills → Output:
+- Complete EA code (MQL5)
+- Backtest results (2010-2024)
+- Optimized parameters
+- Risk controls (2% per trade)
+- Documentation + setup guide
+```
+
+---
+
+#### **Pattern 3: Strategy Backtesting** 📈
+*Goal: Test strategy profitability*
+
+**Stack:**
+1. `technical-analysis-mastery-skill` - Strategy rules
+2. `algorithmic-trading-skill` - Backtest framework
+3. `python-best-practices-skill` - Python backtesting
+4. `risk-management-trading-skill` - Calculate metrics
+
+**Example:**
+```
+User: "backtest กลยุทธ์ moving average crossover"
+
+Auto-loads 6 skills → Output:
+- Python backtest code (Backtrader/QuantConnect)
+- 10 years historical results
+- Performance metrics (Sharpe, Calmar, max DD)
+- Equity curve chart
+- Recommendations
+```
+
+---
+
+### 💡 Usage Examples
+
+**Novice:**
+```
+"สร้าง indicator RSI ให้หน่อย"
+→ Strategy Stack (6 skills)
+→ Gets indicator code + docs
+```
+
+**Intermediate:**
+```
+"สร้าง EA เทรด EURUSD ด้วย moving average"
+→ EA/Robot Stack (9 skills)
+→ Gets complete EA with backtest
+```
+
+**Expert:**
+```
+"สร้างระบบเทรดสมบูรณ์พร้อม risk management ลงจริง"
+→ Full Trading Stack (12 skills)
+→ Gets production system + deployment guide
+```
+
+---
+
+## 🏢 THE ERP/ODOO ULTIMATE STACK: Enterprise System Development
+
+> **Purpose:** Complete ERP/Odoo development from requirements to deployment
+>
+> **Power Level:** 15 skills combined = 800/1000 ERP expertise
+>
+> **Target:** Production-ready enterprise systems
+
+### What Is The ERP/ODOO Ultimate Stack?
+
+The ERP/ODOO Ultimate Stack is a **5-layer enterprise development framework** that combines 15 skills to deliver production-grade ERP systems. It works by:
+
+1. **Business Analysis** (requirements, process mapping, gap analysis)
+2. **Architecture & Design** (module design, database schema, workflow)
+3. **Development** (Odoo/Python development, customization, integration)
+4. **Quality & Testing** (functional testing, UAT, data migration)
+5. **Deployment** (production deployment, training, support)
+
+**Result:** Enterprise ERP systems that scale to 1000+ users.
+
+---
+
+### 🏗️ The 5 Layers (15 Skills)
+
+#### **Layer 1: Business Analysis & Strategy (3 skills)** 📋
+*Understand business requirements*
+
+1. `erp-systems-mastery-skill` ⭐⭐⭐ - ERP concepts, modules, implementation methodology
+2. `business-model-canvas-skill` ⭐⭐ - Business model analysis, value proposition
+3. `app-architecture-skill` ⭐⭐ - System architecture planning
+
+**Combined Power:** 750/1000 - Business understanding
+
+**Thai Keywords:** "ERP", "ระบบองค์กร", "Odoo", "วิเคราะห์ธุรกิจ", "requirements", "ความต้องการ", "กระบวนการทำงาน"
+
+---
+
+#### **Layer 2: Architecture & Database Design (4 skills)** 🏗️
+*Design system architecture*
+
+4. `app-architecture-skill` ⭐⭐⭐ - Enterprise architecture, microservices
+5. `architecture-patterns-skill` ⭐⭐ - Design patterns for ERP
+6. `api-wrapper-saas-skill` ⭐⭐ - API design, integration architecture
+7. `design-systems-skill` ⭐ - UI/UX component design
+
+**Combined Power:** 780/1000 - Scalable architecture
+
+**Thai Keywords:** "สถาปัตยกรรม", "ออกแบบระบบ", "ฐานข้อมูล", "โครงสร้าง", "integration", "API"
+
+---
+
+#### **Layer 3: Odoo/Python Development (5 skills)** 💻
+*Implement ERP functionality*
+
+8. `odoo-development-skill` ⭐⭐⭐ - Odoo customization, module development
+9. `python-best-practices-skill` ⭐⭐⭐ - Python for Odoo/ERP
+10. `code-quality-standards-skill` ⭐⭐ - Clean code for enterprise
+11. `excel-expert-skill` ⭐ - Data import/export, reporting
+12. `automation-workflows-skill` ⭐⭐ - Workflow automation, scheduled jobs
+
+**Combined Power:** 850/1000 - Expert development
+
+**Thai Keywords:** "Odoo", "พัฒนา Odoo", "Python", "เขียนโมดูล", "customize", "ปรับแต่ง", "module"
+
+---
+
+#### **Layer 4: Quality & Integration (2 skills)** ✅
+*Ensure system reliability*
+
+13. `debug-methodology-skill` ⭐⭐⭐ - Debug complex ERP issues
+14. `security-best-practices-skill` ⭐⭐ - Enterprise security, data protection
+
+**Combined Power:** 800/1000 - Production quality
+
+**Thai Keywords:** "ทดสอบ", "แก้บั๊ก", "ตรวจสอบ", "security", "ความปลอดภัย"
+
+---
+
+#### **Layer 5: Deployment & Support (1 skill)** 🚀
+*Deploy to production*
+
+15. `git-safety-skill` ⭐⭐ - Version control, deployment workflow
+
+**Combined Power:** 750/1000 - Safe deployment
+
+**Thai Keywords:** "deploy", "ติดตั้ง", "ลงระบบจริง", "production"
+
+---
+
+### 🤖 Auto-Loading Rules (3 Modes)
+
+#### **Mode 1: ERP Analysis Stack (6 skills)** ⚡
+*Trigger: ERP requirements/analysis*
+
+**Keywords:**
+- **EN:** "ERP", "enterprise system", "requirements", "business process"
+- **TH:** "ERP", "ระบบองค์กร", "ความต้องการ", "กระบวนการธุรกิจ", "วิเคราะห์ระบบ"
+
+**Auto-Load:**
+- Layer 1: All 3 business analysis skills
+- Layer 2: app-architecture, architecture-patterns
+- Layer 3: python-best-practices
+
+**Power:** ~650/1000 - Requirements & planning
+
+---
+
+#### **Mode 2: Odoo Development Stack (10 skills)** 🔥
+*Trigger: Odoo development keywords*
+
+**Keywords:**
+- **EN:** "Odoo", "customize Odoo", "Odoo module", "Odoo development"
+- **TH:** "Odoo", "พัฒนา Odoo", "ปรับแต่ง Odoo", "เขียนโมดูล Odoo", "Odoo customization"
+
+**Auto-Load:**
+- All 6 from ERP Analysis Stack
+- **+4 additional:**
+  - odoo-development-skill
+  - code-quality-standards-skill
+  - excel-expert-skill
+  - automation-workflows-skill
+
+**Power:** ~750/1000 - Professional Odoo development
+
+---
+
+#### **Mode 3: Full ERP Stack (15 skills)** 💣
+*Trigger: Complete ERP implementation*
+
+**Keywords:**
+- **EN:** "complete ERP", "ERP implementation", "production ERP", "enterprise deployment"
+- **TH:** "ERP เต็มรูปแบบ", "ติดตั้ง ERP", "ระบบองค์กรสมบูรณ์", "ERP ลงจริง"
+
+**Auto-Load:** ALL 15 skills
+
+**Power:** 800/1000 - **MAXIMUM ERP EXPERTISE**
+
+---
+
+### 🎯 Skill Combination Patterns
+
+#### **Pattern 1: Odoo Module Development** 🔧
+*Goal: Create custom Odoo module*
+
+**Stack:**
+1. `erp-systems-mastery-skill` - Understand Odoo framework
+2. `odoo-development-skill` - Code Odoo module
+3. `python-best-practices-skill` - Clean Python code
+4. `code-quality-standards-skill` - Maintainable code
+5. `git-safety-skill` - Version control
+
+**Example:**
+```
+User: "สร้าง Odoo module สำหรับจัดการ inventory"
+
+Auto-loads 10 skills → Output:
+- Complete Odoo module code
+- Database models
+- Views (form, tree, kanban)
+- Business logic
+- Security rules (ir.model.access)
+- Unit tests
+- Documentation
+```
+
+---
+
+#### **Pattern 2: ERP Integration** 🔗
+*Goal: Integrate Odoo with external systems*
+
+**Stack:**
+1. `odoo-development-skill` - Odoo API
+2. `api-wrapper-saas-skill` - API integration design
+3. `python-best-practices-skill` - Python integration code
+4. `automation-workflows-skill` - Scheduled sync jobs
+5. `security-best-practices-skill` - Secure API communication
+
+**Example:**
+```
+User: "เชื่อม Odoo กับ Shopify"
+
+Auto-loads 10 skills → Output:
+- Odoo connector module
+- Shopify API integration
+- Product sync (bidirectional)
+- Order sync
+- Inventory sync
+- Error handling
+- Logging + monitoring
+```
+
+---
+
+#### **Pattern 3: Full ERP Implementation** 🏢
+*Goal: Deploy complete ERP system*
+
+**Stack:**
+- **Layer 1-2:** Business analysis + architecture (7 skills)
+- **Layer 3:** Development (5 skills)
+- **Layer 4-5:** Quality + deployment (3 skills)
+
+**Example:**
+```
+User: "ติดตั้ง Odoo สำหรับโรงงานผลิต"
+
+Auto-loads ALL 15 skills → Output:
+- Requirements document
+- System architecture
+- Database schema
+- Custom modules:
+  - Manufacturing (MRP)
+  - Inventory management
+  - Quality control
+  - Maintenance
+- Integrations (PLC, weighing scale)
+- User training materials
+- Deployment guide
+- Support documentation
+
+Result: Complete ERP system for 200+ users
+```
+
+---
+
+### 💡 Usage Examples
+
+**Novice:**
+```
+"สร้าง Odoo module ง่ายๆ"
+→ Odoo Development Stack (10 skills)
+→ Gets basic module with docs
+```
+
+**Intermediate:**
+```
+"เชื่อม Odoo กับระบบภายนอก"
+→ Odoo Development Stack (10 skills)
+→ Gets integration module
+```
+
+**Expert:**
+```
+"ติดตั้ง ERP สมบูรณ์พร้อม customization"
+→ Full ERP Stack (15 skills)
+→ Gets complete enterprise system
+```
+
+---
+
+### 🔗 Cross-Stack Integration
+
+**ERP + Coding Stack:**
+When developing Odoo/ERP systems, auto-loads coding skills:
+- python-best-practices-skill
+- code-quality-standards-skill
+- debug-methodology-skill
+- git-safety-skill
+- automation-workflows-skill
+
+**ERP + Trading Stack:**
+For financial/trading ERP modules:
+- trading-automation-skill (algorithmic trading integration)
+- risk-management-trading-skill (financial risk controls)
+
+**Result:** Seamless cross-domain expertise!
+
+---
+
 ### 🇹🇭 Thai Keywords Mapping (สรุป)
 
 **สำหรับ Skills ที่ใช้บ่อยสุด:**
