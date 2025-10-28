@@ -75,7 +75,7 @@ git push origin main
 > 1. User request (คำขอของคุณ)
 > 2. Skill description (คำอธิบายใน YAML frontmatter)
 >
-> **Skills location:** `/home/u-and-an/projects/.claude/skills/` (84 skills พร้อมใช้)
+> **Skills location:** `/home/u-and-an/projects/.claude/skills/` (90 skills พร้อมใช้)
 >
 > **ไม่มี Skill tool:** ❌ ไม่มี `Skill(command: "name")` - Claude โหลดเอง **อัตโนมัติ**
 
@@ -271,10 +271,10 @@ git push origin main
 
 ---
 
-### 📋 Full Skills List (84 Skills)
+### 📋 Full Skills List (90 Skills)
 
 <details>
-<summary><b>คลิกเพื่อดูรายชื่อ skills ทั้งหมด (84 skills)</b></summary>
+<summary><b>คลิกเพื่อดูรายชื่อ skills ทั้งหมด (90 skills)</b></summary>
 
 #### 🧠 Psychology & Marketing (26 skills)
 - `consumer-psychology-skill`
@@ -379,6 +379,14 @@ git push origin main
 #### 💼 Business & Enterprise Systems (2 skills)
 - `erp-systems-mastery-skill` ⭐ NEW!
 - `odoo-development-skill` ⭐ NEW!
+
+#### 📈 Trading & Technical Analysis (6 skills) ⭐ NEW!
+- `trading-automation-skill` ⭐ NEW!
+- `indicator-development-skill` ⭐ NEW!
+- `price-action-trading-skill` ⭐ NEW!
+- `algorithmic-trading-skill` ⭐ NEW!
+- `risk-management-trading-skill` ⭐ NEW!
+- `technical-analysis-mastery-skill` ⭐ NEW!
 
 </details>
 
