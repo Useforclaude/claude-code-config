@@ -75,7 +75,7 @@ git push origin main
 > 1. User request (คำขอของคุณ)
 > 2. Skill description (คำอธิบายใน YAML frontmatter)
 >
-> **Skills location:** `/home/u-and-an/projects/.claude/skills/` (91 skills พร้อมใช้)
+> **Skills location:** `/home/u-and-an/projects/.claude/skills/` (104 skills พร้อมใช้)
 >
 > **ไม่มี Skill tool:** ❌ ไม่มี `Skill(command: "name")` - Claude โหลดเอง **อัตโนมัติ**
 
@@ -329,10 +329,10 @@ git push origin main
 
 ---
 
-### 📋 Full Skills List (91 Skills)
+### 📋 Full Skills List (104 Skills)
 
 <details>
-<summary><b>คลิกเพื่อดูรายชื่อ skills ทั้งหมด (91 skills)</b></summary>
+<summary><b>คลิกเพื่อดูรายชื่อ skills ทั้งหมด (104 skills)</b></summary>
 
 #### 🧠 Psychology & Marketing (26 skills)
 - `consumer-psychology-skill`
@@ -428,6 +428,21 @@ git push origin main
 - `viral-marketing-mastery-skill` ⭐ NEW!
 - `china-marketing-mastery-skill` ⭐ NEW!
 - `membership-business-models-skill` ⭐ NEW!
+
+#### 📣 Marketing Automation & Growth (13 skills) ⭐ TIER 2 NEW!
+- `email-marketing-automation-skill` ⭐ NEW!
+- `webinar-funnel-mastery-skill` ⭐ NEW!
+- `influencer-marketing-mastery-skill` ⭐ NEW!
+- `chatbot-conversation-design-skill` ⭐ NEW!
+- `sales-psychology-mastery-skill` ⭐ NEW!
+- `affiliate-program-design-skill` ⭐ NEW!
+- `retention-marketing-skill` ⭐ NEW!
+- `referral-marketing-skill` ⭐ NEW!
+- `community-led-growth-skill` ⭐ NEW!
+- `partnership-marketing-skill` ⭐ NEW!
+- `push-notification-strategies-skill` ⭐ NEW!
+- `podcast-marketing-strategies-skill` ⭐ NEW!
+- `mlm-network-marketing-skill` ⭐ NEW!
 
 #### 🌍 Language & Communication (1 skill)
 - `professional-translation-skill` ⭐ NEW!
