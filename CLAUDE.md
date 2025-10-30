@@ -75,7 +75,7 @@ git push origin main
 > 1. User request (คำขอของคุณ)
 > 2. Skill description (คำอธิบายใน YAML frontmatter)
 >
-> **Skills location:** `/home/u-and-an/projects/.claude/skills/` (126 skills พร้อมใช้)
+> **Skills location:** `/home/u-and-an/projects/.claude/skills/` (130 skills พร้อมใช้)
 >
 > **ไม่มี Skill tool:** ❌ ไม่มี `Skill(command: "name")` - Claude โหลดเอง **อัตโนมัติ**
 
@@ -131,7 +131,7 @@ git push origin main
 
 ---
 
-### 🔥 Top 24 Skills (ใช้บ่อยที่สุด)
+### 🔥 Top 25 Skills (ใช้บ่อยที่สุด)
 
 **เมื่อทำงานใดๆ → ตรวจสอบ keywords ด้านล่าง → ถ้าตรง → เรียก skill ทันที!**
 
@@ -266,6 +266,15 @@ git push origin main
 24. **`membership-business-models-skill`** ⭐⭐⭐ (NEW!)
     - **EN:** `"membership", "subscription", "recurring revenue", "MRR", "ARR", "churn rate", "member retention", "subscription pricing", "tiered pricing", "membership site", "subscription business", "member acquisition", "lifetime value", "LTV", "subscription model", "membership tiers", "cancel membership", "pause subscription", "member onboarding", "member engagement", "community membership", "subscription metrics"`
     - **TH:** `"สมาชิก", "ค่าสมาชิก", "รายเดือน", "รายปี", "สมัครสมาชิก", "ธุรกิจแบบสมาชิก", "รายได้ประจำ", "ลูกค้าซื้อซ้ำ", "ยกเลิกสมาชิก", "รักษาสมาชิก", "แพ็คเกจ", "อัพเกรด", "ดาวน์เกรด", "ทดลองฟรี", "ชุมชนสมาชิก", "มูลค่าตลอดชีพลูกค้า", "ต้นทุนหาลูกค้า", "เว็บสมาชิก", "สมัครรายเดือน", "สมัครรายปี"`
+
+---
+
+#### 🔍 SEO & Search Optimization
+
+25. **`aeo-optimization-skill`** ⭐⭐⭐ (NEW!)
+    - **EN:** `"AEO", "answer engine optimization", "AI search", "ChatGPT optimization", "Perplexity", "Google SGE", "zero-click", "featured snippet", "AI citation", "AI-first content", "schema markup", "E-E-A-T", "semantic SEO", "conversational search", "voice search", "AI content"`
+    - **TH:** `"AEO", "การค้นหาด้วย AI", "ปรับแต่งสำหรับ AI", "ChatGPT optimization", "Perplexity", "Google SGE", "zero-click", "featured snippet", "AI อ้างอิง", "ถูกอ้างอิงโดย AI", "SEO ยุคใหม่", "AI-first content", "schema markup", "E-E-A-T", "การค้นหาด้วยเสียง"`
+    - **Summary:** Master Answer Engine Optimization for AI search engines (ChatGPT, Perplexity, SGE) - direct answers, schema markup, E-E-A-T for AI, citation strategies, platform-specific tactics. Critical for 2025+ where 60% searches are zero-click (3,331 lines)
 
 ---
 
