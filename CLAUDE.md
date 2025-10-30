@@ -75,7 +75,7 @@ git push origin main
 > 1. User request (คำขอของคุณ)
 > 2. Skill description (คำอธิบายใน YAML frontmatter)
 >
-> **Skills location:** `/home/u-and-an/projects/.claude/skills/` (130 skills พร้อมใช้)
+> **Skills location:** `/home/u-and-an/projects/.claude/skills/` (135 skills พร้อมใช้)
 >
 > **ไม่มี Skill tool:** ❌ ไม่มี `Skill(command: "name")` - Claude โหลดเอง **อัตโนมัติ**
 
@@ -131,7 +131,7 @@ git push origin main
 
 ---
 
-### 🔥 Top 25 Skills (ใช้บ่อยที่สุด)
+### 🔥 Top 35 Skills (ใช้บ่อยที่สุด)
 
 **เมื่อทำงานใดๆ → ตรวจสอบ keywords ด้านล่าง → ถ้าตรง → เรียก skill ทันที!**
 
@@ -316,6 +316,37 @@ git push origin main
     - **Summary:** Complete China marketing ecosystem - platforms, psychology, live commerce, fission tactics (3,000 lines)
 
 **Total:** 12,785 lines of advanced knowledge added!
+
+---
+
+#### 📱 Social Media & Growth Hacking (5 NEW!)
+
+31. **`youtube-growth-skill`** ⭐⭐⭐ NEW!
+    - **EN:** `"YouTube", "YouTube algorithm", "YouTube growth", "YouTube SEO", "video optimization", "thumbnail design", "CTR", "AVD", "watch time", "retention", "YouTube analytics", "suggested videos", "browse features", "subscriber growth", "monetization"`
+    - **TH:** `"ยูทูป", "อัลกอริทึม YouTube", "เติบโตบน YouTube", "YouTube SEO", "ปรับแต่งวิดีโอ", "ออกแบบ thumbnail", "CTR", "AVD", "เวลาชม", "retention", "วิเคราะห์ YouTube", "วิดีโอแนะนำ", "เติบโตผู้ติดตาม", "สร้างรายได้"`
+    - **Summary:** Master YouTube algorithm (CTR × AVD), thumbnail design, retention engineering, SEO optimization, analytics interpretation, monetization strategies (3,000+ lines)
+
+32. **`tiktok-algorithm-skill`** ⭐⭐⭐ NEW!
+    - **EN:** `"TikTok", "TikTok algorithm", "For You Page", "FYP", "TikTok viral", "completion rate", "TikTok growth", "trending sounds", "TikTok hooks", "TikTok analytics", "TikTok SEO", "hashtag strategy", "duet strategy", "stitch strategy"`
+    - **TH:** `"TikTok", "อัลกอริทึม TikTok", "For You Page", "FYP", "ไวรัลบน TikTok", "completion rate", "เติบโตบน TikTok", "เสียงฮิต", "hook TikTok", "วิเคราะห์ TikTok", "TikTok SEO", "กลยุทธ์แฮชแท็ก", "กลยุทธ์ duet", "กลยุทธ์ stitch"`
+    - **Summary:** Master TikTok's For You Page algorithm, three-wave testing system, completion rate optimization (>80% = viral), trending audio strategies, viral hooks (3,000+ lines)
+
+33. **`linkedin-authority-skill`** ⭐⭐⭐ NEW!
+    - **EN:** `"LinkedIn", "LinkedIn algorithm", "LinkedIn authority", "thought leadership", "LinkedIn profile", "LinkedIn content", "LinkedIn networking", "LinkedIn SEO", "B2B marketing", "professional branding", "LinkedIn engagement", "LinkedIn lead generation", "LinkedIn articles", "connection strategy"`
+    - **TH:** `"LinkedIn", "อัลกอริทึม LinkedIn", "สร้างภาพผู้นำ", "thought leadership", "โปรไฟล์ LinkedIn", "เนื้อหา LinkedIn", "networking LinkedIn", "LinkedIn SEO", "การตลาด B2B", "แบรนด์มืออาชีพ", "engagement LinkedIn", "สร้างลีดจาก LinkedIn", "บทความ LinkedIn", "กลยุทธ์การเชื่อมต่อ"`
+    - **Summary:** Master LinkedIn's two-stage algorithm, thought leadership positioning, profile optimization, content strategy, networking tactics, B2B lead generation, 90-day authority building plan (3,000+ lines)
+
+34. **`instagram-reels-skill`** ⭐⭐⭐ NEW!
+    - **EN:** `"Instagram Reels", "Reels algorithm", "Reels viral", "short-form video", "Instagram growth", "Reels hooks", "watch time", "Reels retention", "trending audio", "Reels editing", "Instagram monetization", "Reels strategy", "Explore page", "Reels analytics"`
+    - **TH:** `"Instagram Reels", "อัลกอริทึม Reels", "Reels ไวรัล", "วิดีโอสั้น", "เติบโตบน Instagram", "hook Reels", "เวลาชม", "retention Reels", "เสียงฮิต", "ตัดต่อ Reels", "สร้างรายได้จาก Instagram", "กลยุทธ์ Reels", "หน้า Explore", "วิเคราะห์ Reels"`
+    - **Summary:** Master Instagram Reels three-stage ranking system, viral formula (hook-deliver-payoff), watch time optimization (>70% = viral), 7 high-performing Reels types, monetization strategies (3,000+ lines)
+
+35. **`growth-hacking-skill`** ⭐⭐⭐ NEW!
+    - **EN:** `"growth hacking", "AARRR metrics", "pirate metrics", "viral loops", "K-factor", "viral coefficient", "Product-Led Growth", "PLG", "onboarding optimization", "activation rate", "retention curves", "referral programs", "A/B testing", "network effects", "growth experiments"`
+    - **TH:** `"growth hacking", "AARRR metrics", "pirate metrics", "viral loops", "K-factor", "viral coefficient", "Product-Led Growth", "PLG", "ปรับแต่ง onboarding", "อัตราการเปิดใช้งาน", "retention curves", "โปรแกรมแนะนำ", "A/B testing", "network effects", "ทดลองเติบโต"`
+    - **Summary:** Master rapid user acquisition without massive budgets - AARRR framework, viral loops (K > 1 = exponential growth), Product-Led Growth, network effects, A/B testing, 90-day growth sprint (3,000+ lines)
+
+**Total:** 27,785+ lines of social media and growth expertise added!
 
 ---
 
