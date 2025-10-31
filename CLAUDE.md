@@ -175,6 +175,21 @@ git push origin main
    - **EN:** `"influence", "persuasion", "Cialdini", "reciprocity", "authority", "liking"`
    - **TH:** `"โน้มน้าว", "ชักจูง", "สร้างอิทธิพล", "การตอบแทน", "ผู้เชี่ยวชาญ", "อำนาจ", "ความน่าเชื่อถือ"`
 
+9. **`hormone-hijacking-skill`** ⭐⭐⭐ NEW!
+   - **EN:** `"hormone hijacking", "dopamine", "cortisol", "adrenaline", "oxytocin", "neurochemical", "brain chemistry", "chemical persuasion", "hormone triggers", "biochemical manipulation", "stress hormones", "reward hormones", "bonding hormones"`
+   - **TH:** `"ควบคุมฮอร์โมน", "โดปามีน", "คอร์ติซอล", "อะดรีนาลิน", "ออกซิโทซิน", "สารเคมีสมอง", "เคมีสมอง", "ชักจูงทางเคมี", "กระตุ้นฮอร์โมน", "จัดการชีวเคมี", "ฮอร์โมนความเครียด", "ฮอร์โมนรางวัล", "ฮอร์โมนความผูกพัน"`
+   - **Summary:** Master hormone manipulation for marketing - dopamine spikes, cortisol stress triggers, adrenaline urgency, oxytocin trust building, complete neurochemical control system (1,500+ lines)
+
+10. **`sensory-priming-mastery-skill`** ⭐⭐⭐ NEW!
+    - **EN:** `"sensory priming", "multi-sensory", "visual anchoring", "auditory cues", "tactile triggers", "olfactory marketing", "color psychology", "sound design", "sensory branding", "cross-modal priming", "sensory marketing", "subconscious anchors"`
+    - **TH:** `"กระตุ้นประสาทสัมผัส", "หลายประสาทสัมผัส", "สมอภาพ", "สัญญาณเสียง", "กระตุ้นการสัมผัส", "การตลาดกลิ่น", "จิตวิทยาสี", "ออกแบบเสียง", "แบรนด์ประสาทสัมผัส", "การตลาดประสาทสัมผัส", "สมอจิตใต้สำนึก"`
+    - **Summary:** Master multi-sensory persuasion - visual/auditory/tactile/olfactory anchoring, color psychology (red = urgency), sound design for emotion, cross-modal priming techniques (2,000+ lines)
+
+11. **`ai-content-detection-bypass-skill`** ⭐⭐ NEW!
+    - **EN:** `"AI detection", "GPTZero", "Originality.ai", "Turnitin AI", "humanize content", "bypass detector", "perplexity", "burstiness", "human writing", "natural language", "writing patterns", "avoid detection"`
+    - **TH:** `"ตรวจจับ AI", "GPTZero", "Originality.ai", "Turnitin AI", "เขียนให้เหมือนคน", "หลบตัวตรวจจับ", "perplexity", "burstiness", "เขียนแบบมนุษย์", "ภาษาธรรมชาติ", "รูปแบบการเขียน", "ไม่ให้รู้ว่า AI"`
+    - **Summary:** Master human-like writing to pass AI detectors - perplexity/burstiness optimization, natural patterns, authentic voice, GPTZero/Originality.ai bypass techniques (1,800+ lines)
+
 ---
 
 #### ✍️ Copywriting & Content
@@ -234,6 +249,21 @@ git push origin main
 20. **`code-quality-standards-skill`** ⭐
     - **EN:** `"code quality", "refactoring", "clean code", "SOLID", "best practices", "code review"`
     - **TH:** `"คุณภาพโค้ด", "ปรับปรุงโค้ด", "โค้ดสะอาด", "เขียนโค้ดให้ดี", "รีแฟคเตอร์"`
+
+21. **`database-design-skill`** ⭐⭐⭐ NEW!
+    - **EN:** `"database design", "database schema", "SQL", "NoSQL", "normalization", "denormalization", "indexes", "query optimization", "relational database", "PostgreSQL", "MySQL", "MongoDB", "database architecture", "ER diagram", "data modeling", "foreign keys", "primary keys", "database performance"`
+    - **TH:** `"ออกแบบฐานข้อมูล", "schema", "SQL", "NoSQL", "ฐานข้อมูล", "ปรับแต่ง query", "ดัชนี", "PostgreSQL", "MySQL", "MongoDB", "แบบจำลองข้อมูล", "ER diagram", "ประสิทธิภาพฐานข้อมูล", "คีย์หลัก", "คีย์ต่างประเทศ"`
+    - **Summary:** Master database design - SQL/NoSQL schema design, normalization vs denormalization strategies, index optimization, query performance tuning, PostgreSQL/MySQL/MongoDB patterns (2,500+ lines)
+
+22. **`docker-containerization-skill`** ⭐⭐⭐ NEW!
+    - **EN:** `"Docker", "container", "containerization", "Dockerfile", "docker-compose", "Kubernetes", "K8s", "container orchestration", "CI/CD", "DevOps", "microservices deployment", "Docker image", "Docker Hub", "container networking", "volumes", "multi-stage build"`
+    - **TH:** `"Docker", "คอนเทนเนอร์", "Dockerfile", "docker-compose", "Kubernetes", "K8s", "CI/CD", "DevOps", "ติดตั้งแอป", "สร้าง image", "Docker Hub", "เครือข่ายคอนเทนเนอร์", "volumes", "multi-stage build"`
+    - **Summary:** Master Docker and Kubernetes - containerization, multi-stage builds, docker-compose orchestration, Kubernetes deployment, CI/CD integration, production best practices (2,800+ lines)
+
+23. **`testing-mastery-skill`** ⭐⭐⭐ NEW!
+    - **EN:** `"testing", "unit test", "integration test", "E2E test", "TDD", "BDD", "test-driven development", "pytest", "Jest", "Cypress", "test coverage", "mocking", "test automation", "test strategy", "regression testing", "CI testing"`
+    - **TH:** `"ทดสอบ", "unit test", "integration test", "E2E test", "TDD", "BDD", "pytest", "Jest", "Cypress", "coverage", "mocking", "ทดสอบอัตโนมัติ", "กลยุทธ์การทดสอบ", "regression test", "ทดสอบใน CI"`
+    - **Summary:** Master software testing - unit/integration/E2E testing strategies, TDD/BDD methodologies, pytest/Jest/Cypress frameworks, test coverage optimization, CI/CD testing integration (2,600+ lines)
 
 ---
 
@@ -346,7 +376,31 @@ git push origin main
     - **TH:** `"growth hacking", "AARRR metrics", "pirate metrics", "viral loops", "K-factor", "viral coefficient", "Product-Led Growth", "PLG", "ปรับแต่ง onboarding", "อัตราการเปิดใช้งาน", "retention curves", "โปรแกรมแนะนำ", "A/B testing", "network effects", "ทดลองเติบโต"`
     - **Summary:** Master rapid user acquisition without massive budgets - AARRR framework, viral loops (K > 1 = exponential growth), Product-Led Growth, network effects, A/B testing, 90-day growth sprint (3,000+ lines)
 
-**Total:** 27,785+ lines of social media and growth expertise added!
+36. **`viral-hooks-mastery-skill`** ⭐⭐⭐ NEW!
+    - **EN:** `"viral hook", "opening hook", "scroll stopper", "pattern interrupt", "curiosity gap", "hook formula", "attention grabbing", "first 3 seconds", "hook types", "hook testing"`
+    - **TH:** `"hook ไวรัล", "เปิดเรื่อง", "หยุดเลื่อน", "ดึงความสนใจ", "สร้างความสงสัย", "สูตร hook", "3 วินาทีแรก", "ทดสอบ hook"`
+    - **Summary:** Master viral hook creation for social media - 12 proven hook types, pattern interrupt techniques, curiosity gap formulas, testing frameworks
+
+37. **`content-repurposing-skill`** ⭐⭐ NEW!
+    - **EN:** `"content repurposing", "multi-platform content", "content atomization", "one to many", "content transformation", "platform adaptation", "content efficiency", "content multiplication"`
+    - **TH:** `"นำเนื้อหากลับมาใช้", "เนื้อหาหลายแพลตฟอร์ม", "แตกเนื้อหา", "หนึ่งเป็นหลาย", "แปลงเนื้อหา", "ปรับตามแพลตฟอร์ม", "ประหยัดเนื้อหา"`
+    - **Summary:** Master content repurposing - turn 1 piece into 20+ formats, cross-platform strategies, content atomization frameworks
+
+38. **`aeo-optimization-skill`** ⭐⭐⭐ NEW!
+    - **EN:** `"AEO", "answer engine optimization", "AI search", "ChatGPT optimization", "Perplexity", "Google SGE", "zero-click", "featured snippet", "AI citation", "AI-first content", "schema markup", "E-E-A-T", "semantic SEO", "conversational search", "voice search"`
+    - **TH:** `"AEO", "การค้นหาด้วย AI", "ปรับแต่งสำหรับ AI", "ChatGPT optimization", "Perplexity", "Google SGE", "zero-click", "featured snippet", "AI อ้างอิง", "ถูกอ้างอิงโดย AI", "SEO ยุคใหม่", "AI-first content"`
+    - **Summary:** Master Answer Engine Optimization for AI search engines (ChatGPT, Perplexity, SGE) - direct answers, schema markup, E-E-A-T for AI, citation strategies (3,331 lines)
+
+**Total:** 35,000+ lines of social media, growth, and AI optimization expertise added!
+
+---
+
+#### 💼 Business Strategy & Models
+
+39. **`business-model-canvas-skill`** ⭐⭐ NEW!
+    - **EN:** `"Business Model Canvas", "BMC", "business model", "value proposition", "customer segments", "revenue streams", "key resources", "key activities", "key partnerships", "cost structure", "channels", "customer relationships", "business model design", "business model innovation", "startup strategy"`
+    - **TH:** `"Business Model Canvas", "BMC", "โมเดลธุรกิจ", "ออกแบบธุรกิจ", "คุณค่า", "กลุ่มลูกค้า", "รายได้", "ทรัพยากรหลัก", "กิจกรรมหลัก", "พันธมิตร", "ต้นทุน", "ช่องทาง", "ความสัมพันธ์ลูกค้า", "วางแผนธุรกิจ", "นวัตกรรมธุรกิจ", "กลยุทธ์สตาร์ทอัพ"`
+    - **Summary:** Master business model design using BMC framework - 9 building blocks, 20+ proven patterns, business model innovation, validation strategies, startup/pivot planning (2,400+ lines)
 
 ---
 
@@ -2381,10 +2435,10 @@ For financial/trading ERP modules:
 
 ---
 
-### 📋 Full Skills List (126 Skills)
+### 📋 Full Skills List (123 Skills)
 
 <details>
-<summary><b>คลิกเพื่อดูรายชื่อ skills ทั้งหมด (126 skills)</b></summary>
+<summary><b>คลิกเพื่อดูรายชื่อ skills ทั้งหมด (123 skills)</b></summary>
 
 #### 🧠 Psychology & Marketing (26 skills)
 - `consumer-psychology-skill`
@@ -2520,6 +2574,29 @@ For financial/trading ERP modules:
 - `risk-management-trading-skill` ⭐ NEW!
 - `technical-analysis-mastery-skill` ⭐ NEW!
 
+#### 📱 Social Media & Growth Hacking (8 skills) ⭐ NEW!
+- `youtube-growth-skill` ⭐⭐⭐ NEW!
+- `tiktok-algorithm-skill` ⭐⭐⭐ NEW!
+- `linkedin-authority-skill` ⭐⭐⭐ NEW!
+- `instagram-reels-skill` ⭐⭐⭐ NEW!
+- `growth-hacking-skill` ⭐⭐⭐ NEW!
+- `viral-hooks-mastery-skill` ⭐⭐⭐ NEW!
+- `content-repurposing-skill` ⭐⭐ NEW!
+- `aeo-optimization-skill` ⭐⭐⭐ NEW!
+
+#### 🧠 Advanced Neuro & Persuasion (3 skills) ⭐ NEW!
+- `hormone-hijacking-skill` ⭐⭐⭐ NEW!
+- `sensory-priming-mastery-skill` ⭐⭐⭐ NEW!
+- `ai-content-detection-bypass-skill` ⭐⭐ NEW!
+
+#### 💻 Advanced Technical & Infrastructure (3 skills) ⭐ NEW!
+- `database-design-skill` ⭐⭐⭐ NEW!
+- `docker-containerization-skill` ⭐⭐⭐ NEW!
+- `testing-mastery-skill` ⭐⭐⭐ NEW!
+
+#### 💰 Business Strategy (1 skill) ⭐ NEW!
+- `business-model-canvas-skill` ⭐⭐ NEW!
+
 </details>
 
 ---
@@ -2614,7 +2691,7 @@ Claude: [แสดงรายชื่อ 70 skills พร้อมคำอธ
 # List all skills:
 ls -1 /home/u-and-an/projects/.claude/skills/
 
-# Total: 126 skills ready to use
+# Total: 123 skills ready to use
 ```
 
 **โครงสร้างแต่ละ skill:**
